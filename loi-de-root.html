@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La Loi de de Root</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="text-center mt-3">
+            <img src="img/loi-de-root.png" alt="La Loi de Root" style="max-width: 100%;" />
+        </header>
+        <div>
+            <h3 class="text-center">Sommaire</h3>
+            <ol>
+                <li><a href="#1">Règles d'or</a></li>
+                <li><a href="#2">Concepts clés</a></li>
+                <li><a href="#3">Victoire</a></li>
+                <li><a href="#4">Actions principales</a></li>
+                <li><a href="#5">Mise en place</a></li>
+                <li><a href="#6">Marquise de Chat</a></li>
+                <li><a href="#7">Dynasties de la Canopée</a></li>
+                <li><a href="#8">Alliance de la Forêt</a></li>
+                <li><a href="#9">Vagabond</a></li>
+                <li><a href="#10">Culte des Lézards</a></li>
+                <li><a href="#11">Compagnie de la Rivière</a></li>
+                <li><a href="#12">Duché Souterrain</a></li>
+                <li><a href="#13">Conspiration des Corvidés</a></li>
+                <li><a href="#14">Seigneur des Cents</a></li>
+                <li><a href="#15">Gardiens de Fer</a></li>
+            </ol>
+            <ul>
+                <li><a href="#A">Appendice A. Mise en place avancée</a></li>
+                <li><a href="#B">Appendice B. Matériel</a></li>
+                <li><a href="#C">Appendice C. Variantes de plateaux</a></li>
+                <li><a href="#D">Appendice D. Vagabonds</a></li>
+                <li><a href="#E">Appendice E. Nomades</a></li>
+                <li><a href="#F">Appendice F. Monuments</a></li>
+                <li><a href="#G">Appendice G. Glossaire</a></li>
+                <li><a href="#index">Index</a></li>
+            </ul>
+        </div>
+        <section>
+            <h2>Lire la Loi</h2>
+            <p><em>Les textes en petites capitales sont des termes clés. Les textes en italique donnent des rappels et des éclaircissements. Les icônes de factions indiquent les règles qui sont modifiées par les règles et capacités des factions.</em></p>
+            <p><i>Root</i> contient deux livrets&nbsp;: ce livret de référence et le livret d’apprentissage. Si vous préférez apprendre à jouer sur le ton de la conversation avec de nombreux exemples, lisez le guide d’apprentissage. Si vous préférez apprendre à partir de règles définies, formelles et concises, lisez la Loi de Root.<br />Ces explications vous aideront à interpréter la Loi.</p>
+            <div class="mb-3">
+                <p class="mb-0"><strong>Q1. J’aimerais faire quelque chose qui ne semble pas être interdit par les règles. Est-ce que je peux le faire&nbsp;?</strong></p>
+                <cite>R1. En respectant les limites des actions, on peut supposer que oui&nbsp;! Vous serez souvent confrontés à des situations imprévues et étonnantes, cela fait partie du jeu, alors s’il vous plaît n’envoyez pas tout valser si vous êtes contrarié&hellip;</cite>
+                <p class="mb-0"><strong>Q2. Un autre joueur peut-il refuser que j’effectue une action&nbsp;?</strong></p>
+                <cite>R2. Aucune action de Root ne nécessite l’accord des autres joueurs. Alors, faites-le&nbsp;!</cite>
+                <p class="mb-0"><strong>Q3. J’ai l'impression qu’il devrait se passer quelque chose, mais ce n’est pas écrit dans les règles. Que faire&nbsp;?</strong></p>
+                <cite>R3. Même si vous avez trouvé une règle similaire dans une autre section du livret, faites taire votre instinct et respectez la Loi à la lettre.</cite>
+                <p class="mb-0"><strong>Q4. Une règle utilise un terme ou une action spécifique. Un autre terme ou action étroitement lié peut-il aussi être inclus dans la règle&nbsp;?</strong></p>
+                <cite>R4. Non&nbsp;! Partez du principe que la règle inclut uniquement le terme original et non les autres. Par exemple, «&nbsp;<mark>déplacer</mark>&nbsp;» et «&nbsp;<mark>placer</mark>&nbsp;» sont deux termes différents à bien distinguer dans des points de règles comme le Donjon (<a href="#6.2.2">6.2.2</a>).</cite>
+            </div>
+            <p>Si vous avez d’autres questions, n’hésitez pas à vous rendre sur notre site&nbsp;: <a href="https://ledergames.com/root">ledergames.com/root</a></p>
+            <p>S’il vous manque des éléments de jeu ou qu'ils sont abimés, rendez-vous sur&nbsp;: <a href="https://ledergames.com/replacements">ledergames.com/replacements</a></p>
+        </section>
+        <main>
+            <section id="1">
+                <h2>Règles d’or</h2>
+                <p>Ce chapitre répond à des questions techniques de manière détaillée. Vous n’êtes pas tenus de le lire lorsque vous apprenez à jouer pour la première fois.</p>
+                <div class="subsection">
+                    <h3>Conflit de règles</h3>
+                    <ol>
+                        <li><strong>Préséance.</strong> Si une carte contredit une règle de la Loi, la carte prévaut. Si le livret d’apprentissage contredit une règle de la Loi, la Loi prévaut. Si vous pouvez suivre à la fois une règle générale et une règle de faction ou une règle de Nomade, faites-le. Sinon, suivez la règle de la faction ou la règle de Nomade.</li>
+                        <li><strong>Interdiction.</strong> Le terme ne peut pas est absolu. Il ne peut pas être annulé par une autre règle, sauf instruction explicite.</li>
+                        <li><strong>Joueur décisionnaire ou ordre de résolution non précisés.</strong> Chaque fois que l’ordre dans lequel deux effets simultanés doivent être résolus n’est pas précisé, le joueur dont c’est le tour prend la décision. De même, lorsque le joueur chargé de prendre une décision n’est pas indiqué, celui dont c’est le tour s’en charge.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Informations publiques et privées</h3>
+                    <ol>
+                        <li><strong>Main.</strong> Les joueurs ne peuvent révéler ou montrer leurs cartes en main que si cela leur est clairement demandé, mais le nombre de cartes est connu. <a href="#11.2.3"><i class="icon-faction text-riverfolk">O</i></a></li>
+                        <li><strong>Défausse.</strong> La pile de défausse peut être consultée librement.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Négociation et Accords</h3>
+                    <ol>
+                        <li><strong>Accords.</strong> Les joueurs peuvent discuter du jeu ou passer des accords durant la partie, mais les accords n'engagent pas les joueurs.</li>
+                        <li><strong>Cartes.</strong> Les joueurs ne peuvent s’échanger des cartes que si on le leur demande clairement.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Structure du Jeu</h3>
+                    <ol>
+                        <li><strong>Structure d’un tour.</strong> Le tour de chaque joueur comporte trois phases&nbsp;: l’Aurore, le Jour et le Crépuscule. Tout ce qui se déroule «&nbsp;au début&nbsp;» d’une phase a lieu avant toute autre action de cette phase. Tout ce qui se déroule «&nbsp;à la fin&nbsp;» d’une phase a lieu après toute autre action de cette phase, mais avant le début de la phase suivante, s’il y en a une. Lorsqu’un joueur a complété son Crépuscule, le joueur suivant dans le sens horaire commence son tour. Le jeu continue ainsi jusqu’à ce qu’un joueur remporte la partie (<a href="#3.1">3.1</a>).</li>
+                        <li><strong>Interruptions.</strong> Aucune action <i>(y compris une action composée de plusieurs étapes comme la Marche de la Marquise)</i>, capacité <i>(comme le Complot Déjoué des Corvidés)</i>, ou effet persistant <i>(comme la carte Émigré de la Canopée)</i> ne peut être interrompu par un autre effet, sauf mention contraire explicite. <i>(Par exemple, la carte Armuriers précise qu'elle s'utilise «&nbsp;En combat&hellip;&nbsp;»).</i></li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Pièces</h3>
+                    <ol>
+                        <li><strong>Limites.</strong> Les pièces sont prévues en nombre limité. Si vous n’en avez pas assez pour effectuer une action, n’utilisez pas d’objets de substitution.</li>
+                        <li><strong>Faction de départ.</strong> Chaque joueur est le propriétaire de la faction choisie lors de la mise en place (<a href="#5">5</a>), ainsi que des pièces listées au dos de son plateau de faction (à l’exception des objets). Le terme <mark>pièces de la faction</mark> (ou terme similaire) est utilisé pour y faire référence de façon générique. Le terme <mark>pièces du/de la/des [nom de la faction]</mark> est utilisé pour y faire référence de manière spécifique. <i>(Par exemple, les termes «&nbsp;les guerriers de votre faction&nbsp;» et «&nbsp;guerriers de la Marquise&nbsp;» font tous référence aux guerriers en bois orange en forme de chat.)</i></li>
+                        <li><strong>Propriétaire des pièces.</strong> Le propriétaire des pièces d’une faction ne peut pas changer. <i>(Par exemple, la Marquise ne peut pas utiliser Hôpitaux de campagne sur des mercenaires de la Compagnie de la Rivière ou sur des Nomades, étant donné qu'il ne s’agit pas de guerriers de la Marquise.)</i></li>
+                        <li><strong>Manipulation des pièces.</strong> Les pièces peuvent être placées et retirées, comme défini dans le Glossaire (<a href="#G.1.27">G.1.27</a>, <a href="#G.1.31">G.1.31</a>). Si vous devez placer, prendre ou retirer une ou plusieurs pièces sans pouvoir le faire, utilisez le maximum de pièces possible. <i>(Cela ne vous permet pas d’éviter des coûts ou des prérequis. Vous ne pouvez pas faire moins que le maximum possible.)</i> Si plusieurs pièces déclenchant des effets sont retirées simultanément, retirez d’abord toutes les pièces, puis résolvez les effets.</i></li>
+                        <li><strong>Forcer à.</strong> Certains effets <mark>forcent</mark> un joueur ou ses pièces à agir. Résolvez ces actions exactement comme si le joueur choisissait de les effectuer (dans les limites de l’effet). <i>(Par exemple, si vous forcez la Canopée à déplacer des guerriers, Seigneurs de la Forêt s’applique toujours.)</i></li>
+                    </ol>
+                </div>
+            </section>
+            <section id="2">
+                <h2>Concepts clés</h2>
+                <p>Vous trouverez la définition des termes dans le Glossaire (<a href="#G">Appendice G</a>).</p>
+                <div class="subsection">
+                    <h3>Cartes</h3>
+                    <p>Vous piochez des cartes dans la pioche commune et les défaussez dans la défausse commune. Si la pioche est vide, mélangez immédiatement la défausse pour former une nouvelle pioche. Chaque carte possède une <mark>couleur</mark>&nbsp;: oiseau, renard, lapin ou souris. La plupart des cartes ont également un effet qu’il est possible de fabriquer (<a href="#4.1">4.1</a>). <a href="#10.2.1"><i class="icon-faction text-cult">L</i></a></p>
+                    <ol>
+                        <li>
+                            <strong>Les Oiseaux sont des jokers.</strong> Vous pouvez considérer toute carte Oiseau comme une carte d’une autre couleur, même si vous devez dépenser, prendre ou donner plusieurs cartes de même couleur. <a href="#10.2.2"><i class="icon-faction text-cult">L</i></a>
+                            <ol type="I">
+                                <li><strong>Effets forcés.</strong> Si vous devez défausser des cartes Renard, Lapin ou Souris, vous devez considérer toutes vos cartes Oiseau comme appartenant à la couleur requise.</li>
+                                <li><strong>Substitution inversée.</strong> Si vous devez dépenser, défausser ou prendre une carte Oiseau, vous ne pouvez pas utiliser une autre couleur.</li>
+                            </ol>
+                        </li>
+                        <li>Cartes Embuscade. Le jeu contient 5 <mark>cartes embuscade</mark>&nbsp;: 1 Souris, 1 Lapin, 1 Renard et 2 Oiseaux. Vous pouvez les dépenser pour leur couleur, mais elles n’ont pas d’effet à fabriquer. Vous pouvez aussi les jouer en combat pour infliger des pertes (<a href="#4.3.1">4.3.1</a>).</li>
+                        <li>Cartes Domination. Le jeu contient 4 <mark>cartes domination</mark>, une de chaque couleur. Vous pouvez les dépenser pour leur couleur, mais elles ne peuvent pas être fabriquées. Vous pouvez aussi en jouer une pour changer définitivement vos conditions de victoire (<a href="#3.3">3.3</a>).</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Clairières et Chemins</h3>
+                    <p>Le plateau de la Forêt est composé de <mark>clairières</mark> reliées par des <mark>chemins</mark>.</p>
+                    <ol>
+                        <li><strong>Adjacence.</strong> Une clairière est adjacente à toute  autre clairière qui lui est reliée par un chemin. <a href="#12.2.2"><i class="icon-faction text-duchy">D</i></a></li>
+                        <li><strong>Couleur.</strong> Chaque clairière possède une <mark>couleur</mark>&nbsp;: souris, lapin ou renard.</li>
+                        <li><strong>Emplacements.</strong> Chaque clairière compte un certain nombre <mark>d’emplacements pour bâtiments</mark> <i>(carrés blancs)</i>. Lorsque vous placez un bâtiment, il remplit un emplacement libre. Vous ne pouvez pas placer de bâtiment dans une clairière sans emplacement libre.</li>
+                        <li><strong>Ruines.</strong> Les emplacements marqués d’un "R" sont occupés par des ruines en début de partie. Les ruines ne peuvent être retirées que si cela est explicitement indiqué <i>(comme par l’action d’Exploration d’un Vagabond, <a href="#9.5.3">9.5.3</a>)</i>.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Rivières</h3>
+                    <p>Certaines clairières sont reliées par des <mark>rivières</mark>. <i>(Par défaut, les rivières ne sont pas des chemins, mais elles peuvent être considérées comme des chemins si instruction explicite. Les rivières ne divisent pas les clairières ou les bois.)</i> <a href="#11.2.2"><i class="icon-faction text-riverfolk">O</i></a></p>
+                </div>
+                <div class="subsection">
+                    <h3>Bois</h3>
+                    <p>Les aires du plateau entourées par des chemins imprimés et des clairières sont appelées <mark>bois</mark>.</p>
+                    <ol>
+                        <li><strong>Adjacence.</strong> Un bois est adjacent à toute clairière qui le touche sans traverser un chemin imprimé, et adjacent à tout bois dont il est seulement séparé par un chemin imprimé.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Contrôle</h3>
+                    <p>Un joueur <mark>contrôle</mark> une clairière s’il y possède le plus grand nombre de guerriers et de bâtiments (supérieur à tous les autres joueurs). <i>(Les jetons et les pions ne sont pas pris en compte pour déterminer qui contrôle une clairière.)</i> En cas d’égalité dans une clairière, personne ne la contrôle. <a href="#7.2.2"><i class="icon-faction text-eyrie">E</i></a> <a href="#9.2.2"><i class="icon-faction text-vagabond">V</i></a> <a href="#10.2.4"><i class="icon-faction text-cult">L</i></a></p>
+                </div>
+            </section>
+            <section id="3">
+                <h2>Victoire</h2>
+                <div class="subsection">
+                    <h3>Conditions de Victoire</h3>
+                    <p>Le premier joueur à atteindre 30 points de victoire remporte immédiatement la partie. Si plusieurs joueurs atteignent 30 points en même temps, le joueur dont c’est le tour remporte la partie.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Gagner des Points de Victoire</h3>
+                    <p>Chaque faction a sa propre manière de gagner des points de victoire, mais toutes peuvent en gagner des manières suivantes&nbsp;:</p>
+                    <ol>
+                        <li><strong>Retirer des bâtiments et des jetons.</strong> Chaque fois que vous retirez un bâtiment ou un jeton adverse, vous gagnez 1 point de victoire.</li>
+                        <li><strong>Fabriquer des objets.</strong> Lorsque vous fabriquez un objet (<a href="#4.1">4.1</a>), vous gagnez les points de victoire indiqués sur la carte. <a href="#7.2.3"><i class="icon-faction text-eyrie">E</i></a> <a href="#14.2.3"><i class="icon-faction text-warlord">H</i></a></li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Cartes Domination</h3>
+                    <p>La pioche contient 4 cartes domination, qui vous permettent de remporter la partie sans marquer 30 points de victoire.</p>
+                    <ol>
+                        <li>
+                            <strong>Activation.</strong> Pendant votre Jour, si vous avez au moins 10 points de victoire, vous pouvez <mark>activer</mark> une carte Domination de votre main en la plaçant dans votre aire de jeu. Retirez votre marqueur de score de la piste de score. Vous ne pouvez désormais plus gagner de points de victoire. <a href="#9.2.8"><i class="icon-faction text-vagabond">V</i></a>
+                            <ol type="I">
+                                <li><strong>Domination Souris, Lapin, ou Renard.</strong> Vous remportez la partie immédiatement si, au début de votre Aurore, vous contrôlez 3 clairières de la couleur correspondant à la carte Domination activée.</li>
+                                <li><strong>Domination Oiseau.</strong> Vous remportez la partie immédiatement si, au début de votre Aurore, vous contrôlez 2 clairières dans des coins diagonalement opposés.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Cartes activées.</strong> Une carte Domination activée ne compte pas dans votre limite de cartes en main, et ne peut pas être retirée du jeu. Vous ne pouvez pas remplacer une carte Domination activée par une autre.</li>
+                        <li><strong>Utiliser une Domination.</strong> Une carte Domination peut être dépensée pour sa couleur. À tout moment, au lieu de placer une carte Domination dans la défausse, placez-la près du plateau pour montrer qu’elle est <mark>disponible</mark> pour tous. <a href="#10.4.2"><i class="icon-faction text-cult">L</i></a></li>
+                        <li><strong>Prendre les cartes disponibles.</strong> Durant votre Jour, vous pouvez prendre en main une carte Domination disponible en dépensant une carte de la même couleur. Vous ne pouvez pas considérer une carte Domination Oiseau comme une carte d’une autre couleur qu’une carte Oiseau.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="4">
+                <h2>Actions principales</h2>
+                <div class="subsection">
+                    <h3>Fabrication</h3>
+                    <p>Vous pouvez <mark>fabriquer</mark> la plupart des cartes de votre main pour gagner un effet immédiat ou persistant.</p>
+                    <ol>
+                        <li><strong>Coût.</strong> Pour fabriquer une carte, vous devez <mark>activer</mark> vos pièces de fabrication des couleurs indiquées dans le coin inférieur gauche de la carte. <i>(Les pièces de fabrication d’une faction sont indiquées dans la section Fabrication des règles de cette faction.)</i> La couleur d’une pièce de fabrication est celle de la clairière où elle se trouve. Chaque pièce de fabrication ne peut être activée qu'une fois par tour. Le symbole d'un point d'interrogation tricolore signifie une pièce de fabrication de n’importe quelle couleur. <a href="#9.2.1"><i class="icon-faction text-vagabond">V</i></a> <a href="#11.2.1"><i class="icon-faction text-riverfolk">O</i></a> <a href="#10.2.1"><i class="icon-faction text-cult">L</i></a></li>
+                        <li><strong>Effets immédiats.</strong> Lorsque vous fabriquez un effet immédiat <i>(encart en papier)</i>, résolvez l’effet et défaussez la carte. Si c’est un objet, prenez l’objet correspondant dans la réserve d’objets sur le plateau principal, et placez-le dans la case Objets Fabriqués de votre plateau de faction. Si l’objet présent sur la carte n’est plus disponible dans la réserve d’objets, la carte ne peut pas être fabriquée. <a href="#7.8.1"><i class="icon-faction text-eyrie">E</i></a> <a href="#9.5.8"><i class="icon-faction text-vagabond">V</i></a> <a href="#14.2.1"><i class="icon-faction text-warlord">H</i></a></li>
+                        <li><strong>Effets persistants.</strong> Lorsque vous fabriquez un effet persistant <i>(encart en pierre)</i>, placez-le dans votre aire de jeu. Vous pouvez utiliser l’effet tel que décrit sur la carte. <i>(La carte Émigré de la Canopée du paquet de cartes Exilés et Partisans est obligatoire.)</i></li>
+                        <li><strong>Pas de doubles.</strong> Vous ne pouvez pas fabriquer d’effet persistant dont vous avez déjà une copie en jeu.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Déplacement</h3>
+                    <p>Pour vous <mark>déplacer</mark>, déplacez n'importe quel nombre <i>(supérieur à zéro)</i> de vos guerriers et pions d’une clairière vers une clairière adjacente.
+                    <ol>
+                        <li><strong>Vous devez contrôler.</strong> Pour vous déplacer, vous devez contrôler soit la clairière de départ soit celle d’arrivée, ou les deux. <a href="#9.2.3"><i class="icon-faction text-vagabond">V</i></a> <a href="#11.2.2"><i class="icon-faction text-riverfolk">O</i></a> <a href="#13.2.3"><i class="icon-faction text-corvid">C</i></a></li>
+                        <li><strong>Pas de limite de déplacement.</strong> Une même pièce peut être déplacée plusieurs fois par tour. Si vous devez faire plusieurs déplacements, vous pouvez déplacer le même groupe de guerriers, ou plusieurs.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Combat</h3>
+                    <p>Lorsque vous <mark>combattez</mark>, choisissez une clairière où vous possédez des guerriers ou des pions pour être la <mark>clairière du combat</mark>. Vous êtes l’<mark>attaquant</mark>. Choisissez un adversaire présent dans la clairière du combat pour être le <mark>défenseur</mark>.</p>
+                    <ol>
+                        <li>
+                            <strong>Étape 1&nbsp;: Le défenseur peut lancer une embuscade.</strong> Le défenseur peut jouer une carte Embuscade de la couleur de la clairière du combat. Dans ce cas, résolvez <a href="#4.3.1.I">4.3.1.I-II</a> dans l’ordre.
+                            <ol type="I">
+                                <li><strong>Contrer une embuscade.</strong> L’attaquant peut lui aussi jouer une carte Embuscade de la couleur de la clairière du combat. Dans ce cas, le défenseur défausse sa carte Embuscade et passe l'étape <a href="#4.3.1.II">4.3.1.II</a>.</li>
+                                <li><strong>Résoudre une embuscade.</strong> Le défenseur inflige 2 pertes immédiatement (<a href="#4.3.4">4.3.4</a>). Le défenseur défausse ensuite la carte Embuscade. Si l’attaquant n’a plus de guerriers ou de pions, le combat prend fin immédiatement.</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <strong>Étape 2&nbsp;: Lancer les dés.</strong> Lancez les 2 dés. L’attaquant infligera autant de pertes que le plus grand résultat, et le défenseur autant que le plus petit résultat. Si les résultats sont identiques, l’attaquant et le défenseur infligeront le même nombre de pertes. <i>(Les pertes ne seront infligées qu’à l’étape 4, d’où l’emploi du futur.) <a href="#8.2.2"><i class="icon-faction text-woodland">A</i></a></i>
+                            <ol type="I">
+                                <li><strong>Maximum de pertes infligées.</strong> Le maximum de pertes que vous infligez avec un dé est égal au nombre de vos guerriers présents dans la clairière du combat, que vous soyez attaquant ou défenseur. <a href="#9.2.6"><i class="icon-faction text-vagabond">V</i></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <strong>Étape 3&nbsp;: Utiliser des effets.</strong> L’attaquant et le défenseur peuvent utiliser des effets optionnels (comme la carte Tactiques Brutales) qui affectent le combat. S'ils souhaitent tous les deux utiliser des effets, l’attaquant décide qui les utilise d’abord (<a href="#1.1.3 ">1.1.3</a>).
+                            <ol type="I">
+                                <li><strong>Pertes additionnelles.</strong> De nombreux effets permettent d’infliger des <mark>pertes additionnelles</mark> qui ne sont pas limitées par le nombre de guerriers présents dans la clairière du combat.</li>
+                                <li><strong>Sans défense.</strong> Si le défenseur n’a pas de guerriers dans la clairière du combat, l’attaquant inflige une perte additionnelle. <a href="#9.2.4"><i class="icon-faction text-vagabond">V</i></a></li>
+                            </ol>
+                        </li>
+                        <li><strong>Étape 4&nbsp;: Infliger les pertes.</strong> L’attaquant et le défenseur infligent leurs pertes simultanément. Chaque perte infligée retire une pièce adverse de la clairière du combat. <i>(Vous marquez 1 point de victoire pour chaque bâtiment et jeton adverse retiré.)</i> Le joueur qui subit les pertes choisit quelles pièces retirer et dans quel ordre. Il doit cependant retirer tous ses guerriers avant de pouvoir retirer un de ses bâtiments ou jetons, dans n’importe quel ordre. Il choisit également dans quel ordre résoudre les effets déclenchés lorsque ses pièces sont retirées.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="5">
+                <h2>Mise en place</h2>
+                <p>Si vous jouez avec de nouveaux joueurs, utilisez la Mise en place standard (<a href="#5.1">5.1</a>). Si vous avez tous déjà joué et souhaitez apporter un peu de variété à cette partie, utilisez la Mise en place avancée (<a href=#A">Appendice A</a>). Si vous souhaitez utiliser 5 factions ou plus qui doivent commencer dans une clairière d’un coin du plateau, vous devez utiliser les règles de Mise en place avancée.</p>
+                <div class="subsection">
+                    <h3>Mise en place standard</h3>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Assignez les factions et le 1er joueur.</strong> Assignez une faction à chaque joueur selon la méthode de votre choix. Déterminez le 1er joueur et les positions autour de la table aléatoirement. Chaque joueur prend son plateau de faction et toutes les pièces qui y sont listées au dos.</li>
+                        <li><strong>Étape 2&nbsp;: Placez les marqueurs de score.</strong> Chaque joueur place son marqueur de score sur la case "0" de la piste de score.</li>
+                        <li><strong>Étape 3&nbsp;: Piochez les mains de départ.</strong> Si vous jouez à 2 joueurs, retirez du paquet les 4 cartes domination, puis mélangez le paquet. Mélangez la pioche. Chaque joueur pioche 3 cartes.</li>
+                        <li><strong>Étape 4&nbsp;: Placez les ruines.</strong> Placez une ruine sur chaque emplacement du plateau marqué d’un "R" <i>(4 au total)</i>.</li>
+                        <li><strong>Étape 5&nbsp;: Formez la réserve d’objets.</strong> Placez ces objets sur leurs emplacements correspondants dans la réserve d’objets de la partie supérieure du plateau&nbsp;: 2 <i class="icon-item">M</i>, 2 <i class="icon-item">B</i>, 1 <i class="icon-item">C</i>, 1 <i class="icon-item">H</i>, 2 <i class="icon-item">S</i>, 2 <i class="icon-item">T</i>, 2 <i class="icon-item">X</i>.</li>
+                        <li><strong>Rassemblez les autres éléments.</strong> Distribuez les 16 cartes d’aperçu des factions si nécessaire, et posez les 2 dés près du plateau.</li>
+                        <li><strong>Étape 7&nbsp;: Mettez en place les factions.</strong> Dans l’ordre de mise en place (A, B, C, etc.), chaque joueur suit les indications de mise en place de sa faction, détaillées dans les règles et au dos de son plateau de faction.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Valeur</h3>
+                    <p>Pour une partie intéressante choisissez des factions permettant d’atteindre une <mark>Valeur</mark> totale supérieure ou égale à celle indiquée pour votre nombre de joueurs. <i>(Les joueurs audacieux peuvent s’essayer à n’importe quelle combinaison de factions avec une Valeur supérieure ou égale à 17.)</i></p>
+                    <table class="table table-bordered w-auto mx-auto" aria-label="Valeur Totale Optimale">
+                        <thead>
+                            <tr class="table-dark">
+                                <th colspan="6" class="text-center">Valeur Totale Optimale</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Joueurs</th>
+                                <td class="text-center">2</td>
+                                <td class="text-center">3</td>
+                                <td class="text-center">4</td>
+                                <td class="text-center">5</td>
+                                <td class="text-center">6</td>
+                            </tr>
+                            <tr>
+                                <th>Valeur Totale</th>
+                                <td class="text-center">17+</td>
+                                <td class="text-center">18+</td>
+                                <td class="text-center">21+</td>
+                                <td class="text-center">25+</td>
+                                <td class="text-center">28+</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <table class="table table-bordered w-auto mx-auto" aria-label="Valeur par Faction">
+                        <thead>
+                            <tr class="table-dark">
+                                <th colspan="2" class="text-center">Valeur par Faction</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Marquise de Chat</td>
+                                <td class="text-center">10</td>
+                            </tr>
+                            <tr>
+                                <td>Seigneur des Cents</td>
+                                <td class="text-center">9</td>
+                            </tr>
+                            <tr>
+                                <td>Gardiens de Fer</td>
+                                <td class="text-center">8</td>
+                            </tr>
+                            <tr>
+                                <td>Duché Souterrain</td>
+                                <td class="text-center">8</td>
+                            </tr>
+                            <tr>
+                                <td>Dynasties de la Canopée</td>
+                                <td class="text-center">7</td>
+                            </tr>
+                            <tr>
+                                <td>Vagabond (1er/2ème)</td>
+                                <td class="text-center">5/2</td>
+                            </tr>
+                            <tr>
+                                <td>Compagnie de la Rivière</td>
+                                <td class="text-center">5</td>
+                            </tr>
+                            <tr>
+                                <td>Alliance de la Forêt</td>
+                                <td class="text-center">3</td>
+                            </tr>
+                            <tr>
+                                <td>Conspiration des Corvidés</td>
+                                <td class="text-center">3</td>
+                            </tr>
+                            <tr>
+                                <td>Culte des Lézards</td>
+                                <td class="text-center">2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="6">
+                <h2>Marquise de Chat <i class="icon-faction text-marquise">M</i></h2>
+                <div class="subsection">
+                    <h3>Aperçu</h3>
+                    <p>La Marquise de Chat occupe les Sous-Bois et veut les transformer en puissance militaire et industrielle. Chaque fois que la Marquise construit un de ses <mark>bâtiments</mark> (Atelier, Scierie ou Recruteur), elle marque des points de victoire. Plus elle possède de bâtiments du même type sur le plateau, plus cela lui rapporte de points. Cependant pour pouvoir continuer à construire, la Marquise doit maintenir et protéger une production de <mark>bois</mark> forte et interconnectée.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Règles et capacités de la faction</h3>
+                    <ol>
+                        <li><strong>Fabrication.</strong> La Marquise fabrique durant le Jour en activant les Ateliers.</li>
+                        <li><strong>Le Donjon.</strong> Seule la Marquise peut placer des pièces dans la clairière où se trouve le jeton du Donjon. <i>(Des pièces peuvent s’y déplacer. Si le jeton du Donjon est retiré, retirez-le de la partie définitivement.)</i></li>
+                        <li><strong>Hôpitaux de campagne.</strong> Lorsqu’un ou plusieurs guerriers de la Marquise sont retirés d'une clairière, elle peut dépenser 1 carte de la couleur de la clairière où se trouvent les guerriers pour les placer dans la clairière du Donjon au lieu de dans sa réserve.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Mise en place de la faction</h3>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Préparer les guerriers et le bois.</strong> Formez une réserve de 25 guerriers et 8 bois.</li>
+                        <li><strong>Étape 2&nbsp;: Placer le Donjon.</strong> Placez le jeton du Donjon dans une clairière en coin du plateau au choix. Il s’agit de votre clairière de départ.</li>
+                        <li><strong>Étape 3&nbsp;: Garnison.</strong> Placez 1 guerrier dans chaque clairière, excepté dans celle diagonalement opposée à la clairière avec le jeton du Donjon.</li>
+                        <li><strong>Étape 4&nbsp;: Placer les bâtiments de départ.</strong> Placez 1 Scierie, 1 Atelier et 1 Recruteur. Vous pouvez les placer librement dans la clairière du Donjon et/ou dans les clairières adjacentes.</li>
+                        <li><strong>Étape 5&nbsp;: Remplir les pistes de bâtiments.</strong> Placez vos bâtiments restants (5 Scieries, 5 Ateliers et 5 Recruteurs) de droite à gauche sur leur piste de Bâtiment correspondante. <i>(Toutes les cases sauf la plus à gauche de chaque piste sont alors remplies.)</i></li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Aurore</h3>
+                    <p>Placez du bois dans chaque clairière avec n'importe quel nombre de Scieries, à raison de 1 bois par Scierie dans la clairière.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Jour</h3>
+                    <p>D’abord, vous pouvez activer vos Ateliers pour fabriquer des cartes de votre main. Puis vous pouvez effectuer jusqu’à 3 actions dans n’importe quel ordre. Une même action peut être effectuée plusieurs fois. À tout moment, vous pouvez effectuer des actions additionnelles en dépensant une carte Oiseau par action.</p>
+                    <ol>
+                        <li><strong>Combat.</strong> Initiez un combat.</li>
+                        <li><strong>Marche.</strong> Effectuez jusqu'à 2 déplacements.</li>
+                        <li><strong>Recrutement.</strong> Placez 1 guerrier sur chaque Recruteur. Vous ne pouvez effectuer cette action qu’une fois par tour.</li>
+                        <li>
+                            <strong>Construction.</strong> Placez 1 bâtiment.
+                            <ol type="I">
+                                <li><strong>Choisissez la clairière et le bâtiment.</strong> Choisissez une clairière que vous contrôlez. Décidez si vous construisez 1 Scierie, 1 Atelier ou 1 Recruteur. Prenez le bâtiment de ce type le plus à gauche sur votre plateau de faction. Vous devez pouvoir payer son coût (<a href="#6.5.4.II">6.5.4.II</a>) et le placer (<a href="#2.2.3">2.2.3</a> et <a href="#6.5.4.III">6.5.4.III</a>).</li>
+                                <li><strong>Payez le coût du bâtiment.</strong> Le coût du bâtiment est indiqué au sommet de sa colonne. Retirez autant de jetons Bois que le coût du bâtiment. Ce bois doit être retiré de la clairière choisie, de clairières adjacentes contrôlées, ou de clairières contrôlées reliées à la clairière choisie par des clairières contrôlées.</li>
+                                <li><strong>Placez le bâtiment et marquez.</strong> Placez le bâtiment dans la clairière choisie et marquez les points de victoire indiqués sur l’emplacement dévoilé de votre plateau de faction.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Surmenage.</strong> Dépensez 1 carte de la couleur d’une clairière contenant une Scierie pour y placer 1 jeton Bois.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Crépuscule</h3>
+                    <p>Piochez 1 carte, plus 1 pour chaque bonus de pioche dévoilé. Puis, si vous avez plus de 5 cartes en main, défaussez-en (au choix) jusqu’à en avoir 5.</p>
+                </div>
+            </section>
+            <section id="7">
+                <h2>Dynasties de la Canopée <i class="icon-faction text-eyrie">E</i></h2>
+                <div class="subsection">
+                    <h3>Aperçu</h3>
+                    <p>Les Dynasties de la Canopée souhaitent redonner à leur espèce autrefois majestueuse sa gloire d’antan au sein des Sous-Bois en reprenant le contrôle de ses clairières. Durant le Crépuscule, la Canopée marque des points de victoire selon le nombre de <mark>Perchoirs</mark> placés sur le plateau. Plus il y en a, plus elle gagne de points. La Canopée est cependant liée par son <mark>Décret</mark>, un ensemble sans cesse croissant d’actions mandatées et promises par son <mark>dirigeant</mark>. Chaque tour, elle doit effectuer toutes les actions de son Décret, faute de quoi elle subit une <mark>crise</mark>.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Règles et capacités de la faction</h3>
+                    <ol>
+                        <li><strong>Fabrication.</strong> La Canopée fabrique durant le Jour, avant de résoudre le Décret, en activant les Perchoirs.</li>
+                        <li><strong>Seigneurs de la Forêt.</strong> La Canopée contrôle une clairière dans laquelle se trouve au moins une pièce de la Canopée en cas d'égalité.</li>
+                        <li><strong>Mépris du commerce.</strong> Lorsque la Canopée fabrique un objet, elle ignore les points de victoire indiqués sur la carte et marque 1 seul point de victoire. <i>(Elle peut toujours marquer des points de fabrication supplémentaires grâce à des effets comme Maître graveur et la Forge légendaire.)</i></li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Mise en place de la faction</h3>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Préparer les guerriers.</strong> Formez une réserve de 20 guerriers.</li>
+                        <li><strong>Étape 2&nbsp;: Placer le Perchoir et les guerriers de départ.</strong> Placez 1 Perchoir et 6 guerriers dans la clairière dans un des coins qui n’est la clairière de départ en coin d’aucun autre joueur et, si possible, qui est diagonalement opposée à une clairière de départ en coin. Il s’agit de votre clairière de départ. <i>(Cette règle a été modifiée dans cette édition pour plus de flexibilité.)</i></li>
+                        <li><strong>Étape 3&nbsp;: Choisir un dirigeant.</strong> Choisissez 1 de vos 4 dirigeants de la Canopée et placez-le sur l’emplacement Dirigeant de votre plateau de faction. Placez les 3 autres dirigeants face visible devant vous.</li>
+                        <li><strong>Étape 4&nbsp;: Placer les Vizirs.</strong> Glissez vos 2 cartes de Vizir Fidèle face visible dans les colonnes du Décret indiquées par votre dirigeant.</li>
+                        <li><strong>Étape 5&nbsp;: Remplir la piste de Perchoir.</strong> Placez vos 6 Perchoirs restants sur votre piste de Perchoirs de droite à gauche.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Aurore</h3>
+                    <p>Votre Aurore comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Mesures d’urgence.</strong> Si vous n’avez pas de carte en main, piochez 1 carte.</li>
+                        <li><strong>Ajouter au Décret.</strong> Vous devez ajouter 1 ou 2 cartes au Décret. Une seule de ces cartes peut être une carte Oiseau. Vous pouvez placer chaque carte sur n’importe quelle colonne, et le nombre de cartes dans chaque colonne n’est pas limité.</li>
+                        <li><strong>Un nouveau Perchoir.</strong> Si vous n’avez aucun Perchoir en jeu, placez 1 Perchoir et 3 guerriers dans la clairière contenant le moins de guerriers et dans laquelle ces pièces peuvent être placées.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Jour</h3>
+                    <p>Votre Jour comporte 2 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Fabrication.</strong> Vous pouvez activer vos Perchoirs pour fabriquer des cartes de votre main.</li>
+                        <li>
+                            <strong>Résolution du Décret.</strong> Vous devez résoudre le Décret, en résolvant les colonnes de gauche à droite. Dans chaque colonne, vous devez résoudre toutes les cartes, dans l’ordre de votre choix. Pour chaque carte, vous devez effectuer l’action de la colonne comme ci-dessous. Si vous ne pouvez pas entièrement réaliser une de ces actions, vous subissez immédiatement une crise (<a href="#7.7">7.7</a>).
+                            <ol type="I">
+                                <li><strong>Recrutement.</strong> Placez 1 guerrier dans une clairière de la couleur de la carte et où se trouve un Perchoir.</li>
+                            <li><strong>Déplacement.</strong> Déplacez au moins 1 guerrier à partir d’une clairière de la couleur de la carte.</li>
+                            <li><strong>Combat.</strong> Initiez un combat dans une clairière de la couleur de la carte.</li>
+                            <li><strong>Construction.</strong> Placez 1 Perchoir dans une clairière que vous contrôlez de la couleur de la carte, et qui ne contient pas déjà un Perchoir.</li>
+                        </li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Crépuscule</h3>
+                    <p>Votre Crépuscule comporte 2 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Marquer des points.</strong> Marquez les points de victoire indiqués sur la case vide la plus à droite de votre piste de Perchoirs.</li>
+                        <li><strong>Piocher et défausser.</strong> Piochez 1 carte, plus 1 pour chaque bonus de pioche dévoilé. Puis, si vous avez plus de 5 cartes en main, défaussez-en (au choix) jusqu’à en avoir 5.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Crise</h3>
+                    <p>Si vous ne pouvez pas réaliser une des actions du Décret (<a href="#7.5.2">7.5.2</a>) quelle que soit la raison, vous subissez une crise. Vous devez résoudre toutes les actions de crise dans l’ordre suivant&nbsp;:</p>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Humiliation.</strong> Perdez 1 point de victoire par carte Oiseau <i>(Vizirs Fidèles inclus)</i> dans le Décret.</li>
+                        <li><strong>Étape 2&nbsp;: Purge.</strong> Défaussez toutes les cartes du Décret, sauf les cartes de Vizir Fidèle.</li>
+                        <li>
+                            <strong>Étape 3&nbsp;: Destitution.</strong> Mettez votre dirigeant de côté face cachée, choisissez un nouveau dirigeant parmi ceux face visible, et placez-le sur votre plateau de faction. Placez vos Vizirs Fidèles dans les colonnes du Décret indiquées par le nouveau dirigeant.
+                            <ol type="I">
+                                <li><strong>Une nouvelle chance.</strong> Si vous devez choisir un nouveau dirigeant, mais qu’ils sont tous face cachée, retournez-les tous face visible.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Étape 4&nbsp;: Repos.</strong> Terminez votre Jour et passez au Crépuscule.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Présentation des Dirigeants</h3>
+                    <p>La Canopée possède 4 cartes de Dirigeant.</p>
+                    <ol>
+                        <li><strong>Bâtisseur.</strong> Les Vizirs Fidèles commencent sur Recrutement et Déplacement. Lorsque vous fabriquez, ignorez votre Mépris du Commerce (<a href="#7.2.3">7.2.3</a>).</li>
+                        <li><strong>Charismatique.</strong> Les Vizirs Fidèles commencent sur Recrutement et Combat. Lorsque vous recrutez, vous placez 2 guerriers au lieu de 1.</li>
+                        <li><strong>Commandant.</strong> Les Vizirs Fidèles commencent sur Déplacement et Combat. En attaquant en combat, infligez 1 perte additionnelle.</li>
+                        <li><strong>Despote.</strong> Les Vizirs Fidèles commencent sur Déplacement et Construction. Lorsque vous retirez au moins un bâtiment ou un jeton adverse en combat, marquez 1 point de victoire supplémentaire <i>(deux en tout, <a href="#3.2.1">3.2.1</a>)</i>.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="8">
+                <h2>Alliance de la Forêt <i class="icon-faction text-woodland">A</i></h2>
+                <div class="subsection">
+                    <h3>Aperçu</h3>
+                    <p>L’Alliance de la Forêt fait son possible pour s’attirer la <mark>Sympathie</mark> des créatures opprimées des Sous-Bois. Chaque fois que l’Alliance place un jeton de Sympathie, elle peut marquer des points de victoire. Plus elle a placé de jetons de Sympathie, plus elle marque de points. Gagner la Sympathie des peuples nécessite des <mark>partisans</mark>, des cartes posées sur son plateau de faction. Ces partisans peuvent aussi être poussés à une violente révolte. Une révolte établit une <mark>base</mark>, permettant à l’Alliance d’entraîner des officiers qui offrent une plus grande flexibilité militaire.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Règles et capacités de la faction</h3>
+                    <ol>
+                        <li><strong>Fabrication.</strong> L’Alliance fabrique durant le Jour en activant les jetons de Sympathie.</li>
+                        <li><strong>Guérilla.</strong> En défendant en combat, l’Alliance utilise le plus grand résultat des dés, l’attaquant utilise le plus petit.</li>
+                        <li>
+                            <strong>Pile de partisans.</strong> Pour réaliser des actions, l’Alliance dépense ses <mark>partisans</mark>, qui sont les cartes dans sa pile de partisans. Les partisans ne peuvent être dépensés que pour leur couleur et ne comptent pas pour la taille de votre main. Les partisans sont face cachée, mais l’Alliance peut consulter la pile à tout moment.
+                            <ol type="I">
+                                <li><strong>Capacité.</strong> Si l’Alliance n’a pas de base sur le plateau, la pile de partisans est limitée à 5 cartes. Si l’Alliance doit gagner un partisan alors que la limite est atteinte, la carte est défaussée. Si au moins une base est sur le plateau, la pile de partisans peut contenir un nombre illimité de cartes.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Retirer des bases.</strong> Quand une base est retirée, l’Alliance doit défausser tous ses partisans de la couleur imprimée de cette base <i>(y compris les Oiseaux)</i>, et retirer la moitié de ses officiers, arrondi au supérieur. Si l’Alliance n’a plus de base sur le plateau et a plus de 5 partisans, elle doit immédiatement se défausser jusqu’à avoir 5 partisans.</li>
+                        <li>
+                            <strong>Jetons de Sympathie.</strong> L’Alliance possède 10 jetons de Sympathie.
+                            <ol type="I">
+                                <li><strong>Limites de placements.</strong> Une clairière ne peut contenir qu’un seul jeton de Sympathie.</li>
+                                <li><strong>Termes.</strong> Une <mark>clairière sympathisante</mark> est une clairière contenant un jeton de Sympathie. Une <mark>clairière indifférente</mark> est une clairière qui ne contient pas de jeton de Sympathie.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Indignation.</strong> Lorsqu’un autre joueur retire un jeton de Sympathie ou déplace des guerriers vers une clairière sympathisante, il doit ajouter une carte de la couleur de la clairière affectée de sa main à la pile de partisans. S’il n’a pas de carte correspondante <i>(ni d’Oiseau)</i>, il doit montrer sa main à l’Alliance, qui prend alors 1 carte de la pioche et l’ajoute à sa pile de partisans.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Mise en place de la faction</h3>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Préparer les guerriers.</strong> Formez une réserve de 10 guerriers.</li>
+                        <li><strong>Étape 2&nbsp;: Placer les bases.</strong> Placez 3 bases sur les cases Base correspondantes du plateau de faction.</li>
+                        <li><strong>Étape 3&nbsp;: Remplir la piste de Sympathie.</strong> Placez 10 jetons de Sympathie sur votre piste de Sympathie.</li>
+                        <li><strong>Étape 4&nbsp;: Gagner des partisans.</strong> Piochez 3 cartes et placez-les face cachée dans votre pile de partisans.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Aurore</h3>
+                    <p>Votre Aurore comporte 2 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li>
+                            <strong>Révolte.</strong>Vous pouvez effectuer l’action Révolte autant de fois que souhaité en résolvant les étapes suivantes&nbsp;:
+                            <ol type="I">
+                                <li><strong>Étape 1&nbsp;: Choisir une clairière.</strong> Choisissez une clairière sympathisante de la couleur d’une base non construite (révolte impossible si la base est déjà sur le plateau).</li>
+                                <li><strong>Étape 2&nbsp;: Dépenser les partisans.</strong> Dépensez 2 partisans de la couleur de la clairière choisie.</li>
+                                <li><strong>Étape 3&nbsp;: Résoudre l’effet.</strong> Retirez toutes les pièces adverses de la clairière choisie. Puis placez-y votre base de même couleur, et autant de guerriers que le nombre de clairières sympathisantes de la même couleur imprimée que la base. Enfin, placez 1 guerrier dans la case Officiers. Ce guerrier est désormais un <mark>officier</mark>. <i>(N’oubliez pas de marquer 1 point de victoire pour chaque bâtiment et jeton retiré.)</i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <strong>Gagner la Sympathie.</strong> Vous pouvez effectuer l’action Gagner la Sympathie autant de fois que souhaité en résolvant les étapes suivantes&nbsp;:
+                            <ol type="I">
+                                <li><strong>Étape 1&nbsp;: Choisir une clairière.</strong> Choisissez une clairière indifférente adjacente à une clairière sympathisante. S’il n’y a aucune clairière sympathisante, vous pouvez choisir n’importe quelle clairière.</li>
+                                <li>
+                                    <strong>Étape 2&nbsp;: Dépenser les partisans.</strong> Dépensez des partisans de la couleur de la clairière choisie. Le nombre de partisans nécessaires est indiqué au-dessus des jetons de Sympathie.
+                                    <ol type="a">
+                                        <li><strong>Loi martiale.</strong> Vous devez dépenser 1 partisan additionnel de la couleur de la clairière choisie si elle contient au moins 3 guerriers appartenant à un autre joueur, y compris les guerriers qu’il considère comme les siens concernant le contrôle des clairières <i>(Mercenaires, Nomades, etc.)</i>.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>Étape 3&nbsp;: Placer et marquer des points.</strong> Placez 1 jeton de Sympathie dans la clairière choisie. Marquez les points de victoire indiqués sur la case dévoilée sur votre plateau de faction.</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Jour</h3>
+                    <p>Vous pouvez effectuer les actions suivantes autant de fois que souhaité, dans n’importe quel ordre.</p>
+                    <ol>
+                        <li><strong>Fabrication.</strong> Vous pouvez activer vos jetons de Sympathie pour fabriquer des cartes de votre main.</li>
+                        <li><strong>Mobilisation.</strong> Ajoutez 1 carte de votre main à votre pile de partisans.</li>
+                        <li><strong>Entraînement.</strong> Dépensez 1 carte de la couleur imprimée d’une base construite pour placer 1 guerrier dans la case Officiers. Ce guerrier est désormais un <mark>officier</mark>.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Crépuscule</h3>
+                    <p>Votre Crépuscule comporte 2 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li>
+                            <strong>Opérations militaires.</strong> Vous pouvez réaliser 1 action ci-dessous pour chaque officier que vous possédez, autant de fois que souhaité et dans n’importe quel ordre.
+                            <ol type="I">
+                                <li><strong>Déplacement.</strong> Effectuez 1 déplacement.</li>
+                                <li><strong>Combat.</strong> Initiez un combat.</li>
+                                <li><strong>Recrutement.</strong> Placez 1 guerrier dans une clairière où se trouve une base.</li>
+                                <li><strong>Organisation.</strong> Retirez 1 guerrier de l'Alliance d’une clairière indifférente, placez-y un jeton de Sympathie, et marquez les points de victoire indiqués sur la case dévoilée sur votre plateau de faction.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Piocher et défausser.</strong> Piochez 1 carte, plus 1 pour chaque bonus de pioche dévoilé. Puis, si vous avez plus de 5 cartes en main, défaussez-en (au choix) jusqu’à en avoir 5.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="9">
+                <h2>Vagabond <i class="icon-faction text-vagabond">V</i></h2>
+                <div class="subsection">
+                    <h3>Aperçu</h3>
+                    <p>Le Vagabond participe au conflit sans prendre parti, tout en poursuivant ses propres quêtes afin d’accroître sa popularité dans les bois. Il marque des points de victoire lorsqu’il améliore ses <mark>relations</mark> avec les autres factions, ou lorsqu’il retire les pièces des factions qui lui sont hostiles. Il peut aussi accomplir des <mark>quêtes</mark> pour marquer des points. Pour se déplacer et agir efficacement, le Vagabond doit gérer ses objets, et agrandir sa collection en explorant les ruines et en apportant son aide aux autres factions.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Règles et Capacités de la Faction</h3>
+                    <ol>
+                        <li><strong>Fabrication.</strong> Le Vagabond épuise ses <i class="icon-item">H</i> pour fabriquer. Tous ses <i class="icon-item">H</i> sont de la couleur de la clairière où il se trouve. S’il fabrique un objet, il le prend immédiatement face visible.</li>
+                        <li>
+                            <strong>Voyageur solitaire.</strong> Le pion du Vagabond n’est pas un guerrier <i>(il ne peut pas contrôler une clairière ni empêcher un autre joueur de la contrôler)</i>. Le pion du Vagabond ne peut pas être retiré du plateau.
+                            <ol type="I">
+                                <li><strong>Élimination.</strong> Lorsqu’un joueur adverse utilise un effet qui indique qu’il faut retirer toutes les pièces adverses d’une clairière <i>(comme les Révoltes de l’Alliance, les cartes Faveur des Souris, les Bombes des Corvidés)</i> où se trouve le Vagabond, celui-ci doit endommager 3 objets.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Agile.</strong> Le Vagabond peut toujours se déplacer, peu importe qui contrôle les clairières (<a href="#4.2.1">4.2.1</a>).</li>
+                        <li><strong>Sans défense.</strong> En combat, le Vagabond est sans défense (<a href="4.3.2.II">4.3.2.II</a>) s’il n’a aucune <i class="icon-item">S</i> intacte.</li>
+                        <li>
+                            <strong>Objets.</strong> Les capacités du Vagabond dépendent des objets qu’il possède. Il n’a pas d’emplacement d’objets fabriqués, mais il possède une Sacoche et diverses pistes d’objets. Les objets sur son plateau de faction peuvent être face visible ou face cachée, et intacts ou endommagés. Le Vagabond <mark>épuise</mark> ses objets intacts face visible en les retournant face cachée pour réaliser des actions.
+                            <ol type="I">
+                                <li><strong>Pistes d'objets.</strong> Les <i class="icon-item">T</i>, <i class="icon-item">X</i> et <i class="icon-item">B</i> gagnés ou retournés face visible sont placés face visible sur leur piste correspondante. Lorsqu’ils sont retournés face cachée, les <i class="icon-item">X</i>, <i class="icon-item">T</i>, ou <i class="icon-item">B</i> sur les pistes doivent être placés face cachée dans la Sacoche. Chaque piste ne peut contenir que 3 objets identiques.</li>
+                                <li><strong>La Sacoche.</strong> Les <i class="icon-item">M</i>, <i class="icon-item">S</i>, <i class="icon-item">C</i>, <i class="icon-item">F</i>, et <i class="icon-item">H</i> gagnés sont placés face visible dans la Sacoche du Vagabond.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Maximum de pertes infligées.</strong> En combat, le maximum de pertes infligées avec un dé par le Vagabond (<a href="#4.3.2.I">4.3.2.I</a>) est égal à ses <i class="icon-item">S</i> intactes, face visible ou cachée, dans sa Sacoche.</li>
+                        <li><strong>Subir des pertes.</strong> Chaque fois que le Vagabond subit une perte (<a href="#4.3.3">4.3.3</a>), il doit endommager un objet intact en le plaçant dans la case Endommagé. S’il ne lui reste aucun objet intact, il ignore les pertes.</li>
+                        <li><strong>Cartes Domination et Coalitions.</strong> Le Vagabond ne peut pas activer de carte Domination pour les conditions de victoire normales de la carte (<a href="#3.3.1">3.3.1</a>). À la place, lors de parties à 4 joueurs ou plus, le Vagabond peut activer une carte Domination pour former une coalition avec un autre joueur et placer son marqueur de score sur le plateau de faction du joueur choisi. <i>(Le Vagabond ne marque plus de points de victoire.)</i> Le joueur choisi doit avoir moins de points de victoire que tous les autres joueurs (excepté le Vagabond qui forme la coalition) et ne doit pas déjà faire partie d'une coalition. En cas d’égalité pour le moins de points de victoire, le Vagabond choisit avec lequel des joueurs à égalité il forme une coalition. Si le joueur choisi remporte la partie, le Vagabond gagne également.</li>
+                        <li>
+                            <strong>Relations.</strong> Votre plateau de faction contient un tableau de relations contenant 4 cases sur la piste d’Alliés et une case Hostile. Il contient un marqueur de relation pour chaque joueur qui ne soit pas de la faction Vagabond.
+                            <ol type="I">
+                                <li>
+                                    <strong>Améliorer les relations.</strong> Vous pouvez améliorer une relation avec une faction non hostile en réalisant l’action Aide.
+                                    <ol type="a">
+                                        <li><strong>Coût.</strong> Aidez une faction non hostile le nombre de fois indiqué entre sa position actuelle sur la piste de relations et la suivante durant le même tour. <i>(Une action Aide n’est comptabilisée qu’une fois.)</i></li>
+                                        <li><strong>Effet.</strong> Avancez le marqueur de relation de cette faction d’une case vers la droite sur la piste. Marquez les points de victoire indiqués sur la nouvelle case.</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <strong>Statut d’Allié.</strong> Si un marqueur de relation atteint la dernière case de la piste, cette faction est maintenant votre <mark>Alliée</mark>. <i>(Ses guerriers vous font confiance&nbsp;!)</i>
+                                    <ol type="a">
+                                        <li><strong>Aider un Allié.</strong> Chaque fois que vous aidez une faction Alliée, marquez 2 points de victoire.</li>
+                                        <li><strong>Se déplacer avec un Allié.</strong> Lorsque vous vous déplacez vers une clairière adjacente, vous pouvez également forcer les guerriers d’un joueur Allié à se déplacer avec votre pion Vagabond de votre clairière de départ vers votre clairière de destination.</li>
+                                        <li><strong>Attaquer avec un Allié.</strong> Au début d'un combat où vous êtes l’attaquant, vous pouvez considérer les guerriers Alliés d’une faction comme les vôtres, s’ils se trouvent dans la clairière du combat. Le maximum de pertes infligées avec un dé est égal au nombre de ces guerriers Alliés plus vos <i class="icon-item">S</i> intactes. Vous ne pouvez pas considérer les guerriers Alliés comme les vôtres si cette faction Alliée est le défenseur.</li>
+                                        <li><strong>Subir des pertes avec un Allié.</strong> Durant un combat dans lequel vous considérez les guerriers Alliés comme les vôtres, vous pouvez subir des pertes en retirant les guerriers Alliés. Cependant, si vous subissez plus de pertes en retirant des guerriers Alliés qu’en endommageant vos objets durant un combat, cette faction Alliée devient Hostile (<a href="#9.2.9.III">9.2.9.III</a>) à la fin du combat. Cette règle l’emporte sur la condition pour devenir Hostile décrite en <a href="#9.2.9.III">9.2.9.III</a>.</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <strong>Statut hostile.</strong> Si vous retirez un guerrier d’une faction non hostile, déplacez immédiatement son marqueur de relation sur la case Hostile. Ce joueur est maintenant <mark>Hostile</mark>. Puis, si cela a eu lieu lors d’un combat pendant votre tour, ajustez votre score d’Infamie (<a href="#9.2.9.IIIa">9.2.9.IIIa</a>).
+                                    <ol type="a">
+                                        <li><strong>Infamie.</strong> Chaque fois que vous retirez une pièce d’une faction Hostile en combat durant votre tour, vous marquez 1 point de victoire, sauf pour le guerrier qui a rendu cette faction Hostile. <i>(Ceci s’ajoute aux points marqués pour les bâtiments et jetons retirés.)</i></li>
+                                        <li><strong>Se déplacer dans une clairière hostile.</strong> Vous devez épuiser une <i class="icon-item">M</i> supplémentaire pour vous déplacer dans une clairière contenant au moins un guerrier d’une faction Hostile.</li>
+                                        <li><strong>Aider une faction Hostile.</strong> Vous ne pouvez pas déplacer un marqueur de relation hors de la case Hostile en aidant la faction, mais vous pouvez toujours Aider une faction Hostile pour prendre ses objets fabriqués.</li>
+                                        <li><strong>Coalition avec une faction Hostile.</strong> Vous pouvez former une coalition (<a href="#9.2.8">9.2.8</a>) avec une faction Hostile. Si vous le faites, déplacez son marqueur de relation sur la case Indifférent.</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Mise en Place de la Faction</h3>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Choisir un personnage.</strong> Choisissez une carte de personnage et placez-la sur votre plateau de faction.</li>
+                        <li><strong>Étape 2&nbsp;: Placer votre pion.</strong> Placez le pion du Vagabond dans n’importe quel bois.</li>
+                        <li><strong>Étape 3&nbsp;: Piocher des Quêtes.</strong> Mélangez vos cartesQuête, piochez-en 3 et disposez-les face visible.</li>
+                        <li><strong>Étape 4&nbsp;: Préparer les ruines.</strong> Prenez les 4 ruines du plateau, et prenez les objets <i class="icon-item">B</i>, <i class="icon-item">M</i>, <i class="icon-item">H</i>, et <i class="icon-item">S</i> marqués d’un "R". Placez-en un sous chaque ruine et mélangez-les. Puis, remettez chaque pile sur un emplacement Ruine vide.</li>
+                        <li><strong>Étape 5&nbsp;: Prendre les objets de départ.</strong> Prenez les objets marqués d’un "D" indiqués sur votre carte de personnage. Placez les objets <i class="icon-item">T</i>, <i class="icon-item">X</i>, et <i class="icon-item">B</i> face visible sur leurs pistes de votre plateau de faction. Placez tous les autres objets face visible dans votre Sacoche. Remettez les objets "D" restants dans la boite.</li>
+                        <li><strong>Étape 6&nbsp;: Relations.</strong> Prenez les marqueurs de relation des factions en jeu (hors Vagabond) et placez-les sur la case Indifférent du tableau de relations.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Aurore</h3>
+                    <p>Votre Aurore comporte 2 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Rafraîchir.</strong> Au début de votre Aurore, retournez face visible 2 objets épuisés pour chaque <i class="icon-item">T</i> face visible sur la piste de Rafraîchissement. Puis retournez face visible 3 objets épuisés de plus.</li>
+                        <li><strong>Se Faufiler.</strong> Vous pouvez vous déplacer vers une clairière ou un bois adjacent sans épuiser de <i class="icon-item">M</i>, même vers une clairière Hostile (<a href="#9.2.9.IIIb">9.2.9.IIIb</a>). Ce déplacement n'est pas affecté par les effets empêchant les déplacements hors d'une clairière <i>(comme les Pièges des Corvidés)</i>.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Jour</h3>
+                    <p>Vous pouvez épuiser vos objets pour effectuer les actions suivantes autant de fois que souhaité, dans n’importe quel ordre. Si vous épuisez un <i class="icon-item">X</i>, <i class="icon-item">T</i>, ou <i class="icon-item">B</i> sur une piste, déplacez-le dans votre Sacoche.</p>
+                    <ol>
+                        <li><strong>Déplacement.</strong> Épuisez 1 <i class="icon-item">M</i> pour vous déplacer, plus 1 <i class="icon-item">M</i> si la clairière de destination contient des guerriers Hostiles. Vous ne pouvez pas entrer dans un bois. Dans un bois, vous pouvez uniquement vous déplacer vers une clairière adjacente.</li>
+                        <li><strong>Combat.</strong> Épuisez 1 <i class="icon-item">S</i> pour initier un combat. <i>(Vérifiez ensuite votre relation avec le défenseur.)</i></li>
+                        <li><strong>Exploration.</strong> Épuisez 1 <i class="icon-item">F</i> pour rendre un objet sous une ruine de votre clairière, révélez-le et placez-le face visible dans votre Sacoche ou sur la piste correspondante. Si vous prenez un objet, marquez 1 point de victoire. Si vous prenez le dernier objet d’une ruine, retirez-la.</li>
+                        <li><strong>Aide.</strong> Épuisez 1 objet et donnez 1 de vos cartes de la couleur de votre clairière à un autre joueur <i>(même Hostile)</i> qui y possède au moins 1 pièce de faction. Puis vous pouvez prendre un des objets de la case Objets Fabriqués par ce joueur, s’il en a, et le placer face visible dans votre Sacoche ou sur sa piste. <i>(Vérifiez ensuite votre relation avec la faction de ce joueur.)</i></li>
+                        <li><strong>Quête.</strong> Choisissez une quête de la couleur de votre clairière et épuisez les 2 objets indiqués sur la carte pour l’accomplir. Placez la quête dans votre aire de jeu, et piochez-en une nouvelle. Vous pouvez marquer 1 point de victoire par quête de la même couleur que vous avez accomplie, celle-ci incluse, <mark>ou</mark> piocher 2 cartes de la pioche commune.</li>
+                        <li><strong>Frappe.</strong> Épuisez 1 <i class="icon-item">C</i> pour retirer 1 guerrier adverse de votre clairière. Si cet adversaire n’y possède pas de guerrier, vous pouvez retirer 1 autre pièce de sa faction qui se trouve sur cette clairière. <i>(Vérifiez ensuite votre relation avec la faction de ce joueur.)</i></li>
+                        <li><strong>Réparation.</strong> Épuisez 1 <i class="icon-item">H</i> pour déplacer 1 objet endommagé vers votre Sacoche. Laissez l'objet sur sa face actuelle. <i>(Déplacez immédiatement les <i class="icon-item">X</i>, <i class="icon-item">T</i>, et <i class="icon-item">B</i> face visible sur leurs pistes.)</i></li>
+                        <li><strong>Fabrication.</strong> Jouez 1 carte de votre main et épuisez les <i class="icon-item">H</i> des couleurs indiquées pour la fabriquer. Tous vos <i class="icon-item">H</i> sont de la couleur de la clairière où vous êtes. Vous devez épuiser 1 <i class="icon-item">H</i> pour chaque icône indiquée. Si vous fabriquez 1 objet, placez-le face visible dans votre Sacoche ou sur sa piste.</li>
+                        <li><strong>Action Spéciale.</strong> Épuisez 1 <i class="icon-item">F</i> pour effectuer l’action indiquée sur votre carte de personnage.</li>
+                        <li><strong></strong></li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Crépuscule</h3>
+                    <p>Votre Crépuscule comporte 4 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Repos du soir.</strong> Si vous êtes dans un bois, déplacez tous vos objets de votre case Endommagé vers votre Sacoche ou vers leurs pistes, face visible.</li>
+                        <li><strong>Piocher des cartes.</strong> Piochez 1 carte, plus 1 par <i class="icon-item">X</i> face visible sur sa piste.</li>
+                        <li><strong>Défausser des cartes.</strong> Si vous avez plus de 5 cartes en main, défaussez-en jusqu’à en avoir 5.</li>
+                        <li><strong>Vérifier la limite d’objets.</strong> Si vous avez plus d’objets dans votre Sacoche et votre case Endommagé que votre limite d’objets (6 plus 2 par <i class="icon-item">B</i> visible sur sa piste), retirez des objets de votre Sacoche et de votre case Endommagé jusqu’à atteindre votre limite d’objets, et retirez-les définitivement de la partie.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Jouer avec 2 Vagabonds</h3>
+                    <p>L’extension de la Compagnie de la Rivière, intégrée au jeu de base, vous permet de jouer avec deux Vagabonds en suivant les règles suivantes.</p>
+                    <ol>
+                        <li><strong>Mise en place.</strong> Utilisez les deux groupes d’objets "R" et placez 2 objets "R" au hasard sous chaque ruine. Si vous suivez la Mise en Place Standard (<a href="#5.1">5.1</a>), choisissez aléatoirement quel Vagabond effectue sa mise en place en premier.</li>
+                        <li><strong>Quêtes partagées.</strong> Chaque Vagabond peut compléter les quêtes face visible. N’ajoutez pas de quête supplémentaire lors de la mise en place.</li>
+                        <li><strong>Prendre des objets dans les ruines.</strong> Lorsqu’un Vagabond explore une ruine contenant 2 objets, ou que les Cent rasent une ruine (<a href="#14.4.1">14.4.1</a>) avec 2 objets, il peut les regarder et prendre celui de son choix. <i>(En effectuant 2 fois l’action Exploration, il peut prendre les deux objets d’une même ruine.)</i> Il ne peut pas prendre un objet "R" correspondant à un objet "R" qu’il possède déjà sur son plateau de faction. Si le Vagabond explore, mais ne prend pas d’objet, il ne marque pas de point de victoire, mais la <i class="icon-item">F</i> est épuisée.</li>
+                    </ol>
+                </div>
+            </section>
+            <p class="text-center"><em>Les deux sections suivantes détaillent les règles de factions initialement publiées dans une extension.</em></p>
+            <section id="10">
+                <h2>Culte des Lézards <i class="icon-faction text-cult">L</i></h2>
+                <div class="subsection">
+                    <h3>Aperçu</h3>
+                    <p>En s’occupant des créatures des Sous-Bois rejetées, le Culte des Lézards cherche à submerger ses ennemis par la seule force de sa volonté. Dans les clairières qu’il contrôle, le Culte peut construire des <mark>jardins</mark> et compter sur le bouche-à-oreille pour répandre son évangile. Plus le Culte affermit son emprise sur le cœur de ses disciples, plus il peut marquer de points de victoire en effectuant des <mark>rituels</mark>. Tandis que les autres factions dépensent des cartes pour atteindre leurs objectifs, le Culte agit en révélant des cartes et en choisissant progressivement la parfaite sélection de disciples. À moins de les utiliser pour marquer des points, ces cartes ne sont pas défaussées et retournent dans la main du Culte lors du Crépuscule. Mais cette approche plus douce rend les déplacements et les combats difficiles, et seuls les <mark>acolytes</mark> les plus radicaux du Culte, obtenus alors que ses guerriers se faisaient massacrer en défendant en combat, peuvent les entreprendre.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Règles et capacités de la faction</h3>
+                    <ol>
+                        <li><strong>Fabrication.</strong> Le Culte fabrique durant le Crépuscule en activant ses jardins de la même couleur imprimée que les Parias (<a href="#10.4.1">10.4.1</a>). <i>(Cela correspond généralement à la couleur de la clairière, sauf avec le Monument Ville perdue.)</i></li>
+                        <li><strong>Haine des oiseaux.</strong> Les cartes Oiseau ne sont pas des jokers pour les rituels.</li>
+                        <li><strong>Vengeance.</strong> Lorsqu’un guerrier du Culte est retiré en défendant en combat, il est placé dans la case Acolytes, au lieu de la réserve.</li>
+                        <li><strong>Pèlerins.</strong> Le Culte contrôle une clairière s’il y possède au moins un jardin. Ceci l’emporte sur la capacité de la Canopée (<a href="7.2.2">7.2.2</a>).</li>
+                        <li><strong>Peur des fidèles.</strong> Lorsqu’un jardin est retiré, le Culte doit défausser 1 carte au hasard.</li>
+                        <li><strong>La pile d’Âmes Perdues.</strong> Lorsqu’une carte est dépensée ou défaussée <i>(même une carte Domination)</i>, placez-la dans la pile des Âmes Perdues, au lieu de la défausse. La pile des Âmes Perdues peut être consultée à tout moment par tous les joueurs.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Mise en place de la faction</h3>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Préparer les guerriers.</strong> Formez une réserve de 25 guerriers.</li>
+                        <li><strong>Étape 2&nbsp;: Placer les guerriers.</strong> Dans la clairière dans un des coins qui n’est la clairière de départ en coin d’aucun autre joueur et, si possible, qui est diagonalement opposée à une clairière de départ en coin, placez 4 guerriers et un jardin de la même couleur imprimée que la clairière. Il s’agit de votre clairière de départ. Puis placez 1 guerrier dans chaque clairière adjacente. <i>(Cette règle a été modifiée dans cette édition pour plus de flexibilité.)</i></li>
+                        <li><strong>Étape 3&nbsp;: Choisir les Parias.</strong> Placez le marqueur de Parias sur une couleur dans la case Parias. La couleur choisie est appelée <mark>Paria</mark>.</li>
+                        <li><strong>Étape 4&nbsp;: Piste des jardins.</strong> Placez vos 14 jardins restants sur les cases correspondantes de votre piste de jardins, de droite à gauche.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Aurore</h3>
+                    <p>Votre Aurore comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Définir les Parias.</strong> Regardez les cartes de la pile d’Âmes Perdues, en ignorant les Oiseaux. La couleur ayant le plus de cartes devient celle des Parias. Déplacez le marqueur de Parias, face Parias visible, sur cette couleur. Si le marqueur était déjà sur cette couleur, retournez-le face Haïs visible. Si aucune couleur n’a plus de cartes que les autres, le marqueur reste où il est, et mettez-le face Haïs visible.</li>
+                        <li><strong>Défausser les Âmes Perdues.</strong> Défaussez toutes les cartes de la pile des Âmes Perdues. <i>(Les cartes Domination deviennent disponibles.)</i></li>
+                        <li>
+                            <strong>Effectuer des conspirations.</strong> Vous pouvez dépenser des acolytes en les remettant dans votre réserve pour réaliser des conspirations dans les clairières de la couleur des Parias, autant de fois que souhaité, dans n’importe quel ordre, comme indiqué cidessous. Si les Parias sont Haïs, les conspirations coûtent 1 acolyte de moins.
+                            <ol type="I">
+                                <li><strong>Croisade.</strong> Dépensez 2 acolytes pour initier un combat dans une clairière Paria ou pour vous déplacer <i>(au moins 1 guerrier)</i> à partir d’une clairière Paria. Puis, si vous le souhaitez, déclenchez un combat dans la clairière où vous arrivez.</li>
+                                <li><strong>Conversion.</strong> Dépensez 2 acolytes pour remplacer 1 guerrier adverse d’une clairière Paria par 1 guerrier du Culte. <i>(Pour remplacer une pièce, vous devez pouvoir retirer l’ancienne pièce et placer la nouvelle pièce.)</i></li>
+                                <li><strong>Sanctuaire.</strong> Dépensez 3 acolytes pour remplacer 1 bâtiment adverse d’une clairière Paria par 1 jardin de la couleur correspondante.</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Jour</h3>
+                    <p>Vous pouvez révéler autant de cartes de votre main que souhaité et effectuer un rituel par carte ainsi révélée, autant de fois que souhaité et dans n’importe quel ordre, comme indiqué ci-dessous. <i>(Prenez les cartes révélées dans votre main et placez-les dans votre aire de jeu. Elles ne peuvent pas être utilisées d’une autre manière durant votre Jour.)</i></p>
+                    <ol>
+                        <li><strong>Construction.</strong> Dans une clairière contrôlée de la couleur de la carte révélée, placez 1 jardin de la couleur correspondante.</li>
+                        <li><strong>Recrutement.</strong> Dans une clairière de la couleur de la carte révélée, placez 1 guerrier.</li>
+                        <li><strong>Score.</strong> Dépensez la carte révélée <i>(placez-la dans les Âmes Perdues)</i> pour marquer les points de victoire indiqués au dessus de la case de jardin vide la plus à droite correspondant à la couleur de la carte révélée. Vous pouvez réaliser cette action au maximum une fois par tour et par couleur.</li>
+                        <li><strong>Sacrifice.</strong> Placez 1 guerrier sur votre case Acolytes. Vous devez révéler 1 carte Oiseau pour effectuer ce rituel.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Crépuscule</h3>
+                    <p>Votre Crépuscule comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Reprendre les cartes révélées.</strong> Reprenez en main toutes les cartes que vous avez révélées ce tour.</li>
+                        <li><strong>Fabrication.</strong> Vous pouvez fabriquer en activant les jardins de la même couleur imprimée que les Parias.</li>
+                        <li><strong>Piocher et Défausser.</strong> Piochez 1 carte, plus 1 pour chaque bonus de pioche dévoilé. Puis, si vous avez plus de 5 cartes en main, défaussez-en (au choix) jusqu’à en avoir 5.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="11">
+                <h2>Compagnie de la Rivière <i class="icon-faction text-riverfolk">O</i></h2>
+                <div class="subsection">
+                    <h3>Aperçu</h3>
+                    <p>Lorsque la nouvelle se répandit que les Sous-Bois, sur les rives du grand lac, étaient en train de sombrer dans une guerre totale, la Compagnie de la Rivière envoya rapidement ses officiers s’y établir. Quand les autres factions loueront ses services, le peuple de la rivière sera rapidement en mesure de renforcer ses intérêts commerciaux en construisant des <mark>comptoirs</mark> le long de la rivière et de gagner des points de victoire. La Compagnie peut également marquer des points de victoire simplement en amassant des <mark>fonds</mark>. Mais une trésorerie ostensible est une cible tentante. Elle doit donc trouver l'équilibre entre la protection de son trésor et l’expansion de son réseau à travers toute la Forêt.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Règles et capacités de la faction</h3>
+                    <ol>
+                        <li><strong>Fabrication.</strong> La Compagnie fabrique durant le Jour en investissant des fonds sur les cases vides de sa piste de comptoirs commerciaux. <i>(Elle n'a pas de pièces de fabrication.)</i></li>
+                        <li><strong>Nageurs.</strong> La Compagnie considère les rivières comme des chemins et peut se déplacer le long des rivières, peu importe qui contrôle les clairières de départ et d’arrivée. <i>(Elle peut toujours utiliser les chemins.)</i></li>
+                        <li><strong>Main révélée.</strong> La Compagnie place ses cartes face visible près de son plateau de faction. Si un autre joueur doit prendre une carte de la Compagnie au hasard, mélangez-les face cachée, piochez, puis remettez-les face visible.</li>
+                        <li><strong>Fonds.</strong> Pour réaliser des actions, la Compagnie investit et dépense des <mark>fonds</mark>&nbsp;: des guerriers présents sur leur case Fonds.</li>
+                        <li>
+                            <strong>Comptoirs commerciaux.</strong> La Compagnie marque des points de victoire quand elle construit des comptoirs commerciaux.
+                            <ol type="I">
+                                <li><strong>Commerce perturbé.</strong> Lorsqu’un comptoir est retiré, la Compagnie retire la moitié de ses fonds, arrondi au supérieur, et retire le comptoir du jeu définitivement.</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <strong>Acheter des services.</strong> Au début de leur Aurore, les autres joueurs peuvent acheter les services de la Compagnie.
+                            <ol type="I">
+                                <li><strong>Coût.</strong> L’acheteur doit placer des guerriers de sa réserve sur la case Paiements de la Compagnie. Le nombre de guerriers est le coût indiqué sur la piste des Services de la Compagnie.</li>
+                                <li><strong>Nombre de services.</strong> Chaque tour, un joueur peut acheter 1 service, plus 1 pour chaque clairière contenant un comptoir commercial et au moins 1 pièce de sa faction.</li>
+                                <li><strong>Fonds du Vagabond.</strong> Le Vagabond paye pour les services en épuisant ses objets. Pour chaque objet ainsi épuisé, la Compagnie place 1 guerrier de la Compagnie sur sa case Paiements.</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <strong>Services de la Compagnie.</strong> La Compagnie offre les 3 services suivants&nbsp;:
+                            <ol type="I">
+                                <li><strong>Cartes.</strong> L’acheteur prend une carte de la main de la Compagnie et l’ajoute à la sienne. <i>(Il peut acheter ce service plusieurs fois tant qu’il a accès à des comptoirs.)</i></li>
+                                <li><strong>Bateaux.</strong> L’acheteur considère les rivières comme des chemins jusqu’à la fin de son tour.</li>
+                                <li>
+                                    <strong>Mercenaires.</strong> Durant le Jour et le Crépuscule de son tour, l’acheteur considère les guerriers de la Compagnie comme les siens, pour le contrôle et le combat contre les factions autres que la Compagnie. <i>(L’acheteur ne peut pas les déplacer, les compter pour une Domination, ou les retirer, excepté en subissant des pertes. Ces pièces appartiennent toujours à la faction de la Compagnie, et ne peuvent donc pas être affectées par des capacités comme les Hôpitaux de campagne de la Marquise, ou utilisées pour des actions comme Rallier des Ministres pour le Duché.)</i>
+                                    <ol type="a">
+                                        <li><strong>Subir des pertes.</strong> L’acheteur doit diviser équitablement les pertes entre ses pièces et les guerriers de la Compagnie. Toute perte excédentaire retire les guerriers dont il est propriétaire <i>(pas ceux de la Compagnie)</i>, s’il en a. Il retire les bâtiments ou jetons dont il est propriétaire uniquement s’il n’a plus de guerriers <i>(y compris ceux de la Compagnie)</i> dans la clairière du combat.</li>
+                                        <li><strong>Mercenaires et Vagabond.</strong> Le Vagabond ne peut pas engager de mercenaires. <i>(Si un acheteur combat le Vagabond et qu’un mercenaire de la Compagnie est retiré, la faction de l’acheteur devient Hostile, pas la Compagnie.)</i></li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Mise en place de la faction</h3>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Préparer les guerriers.</strong> Formez une réserve de 15 guerriers.</li>
+                        <li><strong>Étape 2&nbsp;: Placer les guerriers.</strong> Placez 4 guerriers sur une ou plusieurs clairières connectées à une rivière.</li>
+                        <li><strong>Étape 3&nbsp;: Piste des comptoirs commerciaux.</strong> Placez les 9 comptoirs sur leurs cases correspondantes sur la piste des comptoirs.</li>
+                        <li><strong>Étape 4&nbsp;: Fonds de départ.</strong> Placez 3 guerriers sur votre case Paiements.</li>
+                        <li><strong>Étape 5&nbsp;: Prix de départ.</strong> Placez 1 marqueur de services sur une des cases de chacune des pistes de services.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Aurore</h3>
+                    <p>Votre Aurore comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Protectionnisme.</strong> Si la case Paiements est vide, placez-y 2 guerriers.</li>
+                        <li><strong>Marquer les Dividendes.</strong> Si vous avez au moins 1 comptoir sur le plateau, marquez 1 point de victoire pour chaque paire de fonds. <i>(Ne marquez pas de points pour les guerriers sur les cases Paiements ou Investissements.)</i></li>
+                        <li><strong>Rassembler des Fonds.</strong> Déplacez tous les guerriers de votre plateau de faction sur la case Fonds.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Jour</h3>
+                    <p>Vous pouvez investir et dépenser des fonds pour faire les actions ci-dessous, autant de fois que souhaité et dans n’importe quel ordre. Pour investir 1 fonds, déplacez 1 guerrier vers la case Investissements. Pour dépenser 1 fonds, remettez le guerrier dans la réserve de son propriétaire.</p>
+                    <ol>
+                        <li><strong>Déplacement.</strong> Investissez 1 fonds pour vous déplacer.</li>
+                        <li><strong>Combat.</strong> Investissez 1 fonds pour initier un combat.</li>
+                        <li>
+                            <strong>Fabrication.</strong> Investissez des fonds pour fabriquer une carte en main. Au lieu de déplacer des guerriers sur la case Investissements, vous devez les placer sur des cases vides de la piste de Comptoirs commerciaux de la couleur requise par le coût de la carte.
+                            <ol type="I">
+                                <li><strong>Export.</strong> Vous pouvez ignorer l’effet d’une carte construite et la défausser pour placer 1 guerrier de la Compagnie sur la case Paiements.</li>
+                            </ol>
+                            <li><strong>Pioche.</strong> Investissez 1 fonds pour piocher 1 carte.</li>
+                            <li><strong>Recrutement.</strong> Dépensez 1 fonds pour placer 1 guerrier dans une clairière avec une rivière.</li>
+                            <li>
+                                <strong>Établir un comptoir et une Garnison.</strong> Dépensez 2 fonds pour placer 1 comptoir commercial et 1 guerrier.
+                                <ol type="I">
+                                    <li><strong>Choisir une clairière.</strong> Choisissez une clairière sans comptoir et contrôlée par un joueur.</li>
+                                    <li><strong>Dépenser les fonds.</strong> Dépensez 2 fonds du joueur qui contrôle la clairière choisie.</li>
+                                    <li><strong>Placer et marquer des points.</strong> Placez 1 comptoir correspondant et 1 guerrier dans la clairière choisie. Marquez les points de victoire indiqués sur la case dévoilée sur la piste des comptoirs de votre plateau de faction.</li>
+                                </ol>
+                            </li>
+                        </li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Crépuscule</h3>
+                    <p>Votre Crépuscule comporte 2 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Défausser des cartes.</strong> Si vous avez plus de 5 cartes en main, défaussez-en jusqu’à en avoir 5.</li>
+                        <li><strong>Fixer les prix.</strong> Vous pouvez déplacer les marqueurs de chaque service pour définir de nouveaux prix.</li>
+                    </ol>
+                </div>
+            </section>
+            <p class="text-center"><em>Les deux sections suivantes détaillent les règles des factions de l’extension </em>Monde Souterrain<em>.</em></p>
+            <section id="12">
+                <h2>Duché Souterrain <i class="icon-faction text-duchy">D</i></h2>
+                <div class="subsection">
+                    <h3>Aperçu</h3>
+                    <p>Le Duché Souterrain souhaiterait asservir toutes les autres créatures des Sous-Bois. Les avant-postes qui gagnent du terrain le long de la frontière témoignent de son pouvoir dans les Sous-Bois et lui permettent de rallier des <mark>Ministres</mark> à sa cause et de mettre à profit ses ressources tout en marquant des points de victoire. Mais soyez prudent, la roue tourne vite et l’humiliation publique pourrait pousser les Ministres à abandonner leur poste.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Règles et capacités de la faction</h3>
+                    <ol>
+                        <li><strong>Fabrication.</strong> Le Duché fabrique pendant le Crépuscule en activant des Citadelles et des Marchés.</li>
+                        <li><strong>Le Terrier.</strong> <mark>Le Terrier</mark> est une clairière sans couleur adjacente à chaque clairière avec un jeton de Tunnel. Les pièces n’appartenant pas au Duché ne peuvent pas être placées ou déplacées dans le Terrier. Le Duché contrôle toujours le Terrier <i>(même s'il n’y possède aucune pièce)</i>.</li>
+                        <li><strong>Le prix de l’échec.</strong> Chaque fois qu’au moins un bâtiment du Duché est retiré, le Duché doit remettre sa carte de Ministre Rallié de plus haut rang <i>(Seigneur, puis Noble, puis Écuyer)</i> dans sa pile de Ministres Non-Ralliés et retirer sa couronne du jeu définitivement, puis défausser une carte au hasard. S’il a plusieurs Ministres ralliés de plus haut rang, le Duché choisit lequel retirer.</li>
+                        <li><strong>Tunnels.</strong> Le Duché a 3 jetons de Tunnel. Si le Duché doit placer un Tunnel, mais que ses 3 Tunnels sont sur le plateau, il peut d’abord en retirer un du plateau.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Mise en Place de la Faction</h3>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Préparer les guerriers et les Tunnels.</strong> Formez une réserve de 20 guerriers et 3 Tunnels près de vous.</li>
+                        <li><strong>Étape 2&nbsp;: Préparer le Terrier.</strong> Placez le plateau Terrier à côté du plateau principal.</li>
+                        <li><strong>Étape 3&nbsp;: Émerger.</strong> Placez 2 guerriers et 1 Tunnel dans une clairière en coin qui n’est la clairière de départ en coin d’aucun autre joueur et, si possible, qui est diagonalement opposée à une clairière de départ en coin. Il s’agit de votre clairière de départ. Placez ensuite 2 guerriers dans chaque clairière adjacente à la clairière choisie en coin de plateau, sauf dans le Terrier. <i>(Cette règle a été modifiée dans cette édition pour plus de flexibilité.)</i></li>
+                        <li><strong>Étape 4&nbsp;: Remplir les pistes de bâtiments.</strong> Placez 3 Citadelles et 3 Marchés sur les cases Bâtiment correspondantes.</li>
+                        <li><strong>Étape 5&nbsp;: Réunir des Ministres.</strong> Placez 9 cartes de ministre face visible sur votre pile de Ministres Non-Ralliés.</li>
+                        <li><strong>Étape 6&nbsp;: Remplir les cases Couronne.</strong> Placez 9 Couronnes sur les cases avec des points de victoire de votre plateau de faction.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Aurore</h3>
+                    <p>Placez, dans le Terrier, 1 guerrier, plus 1 guerrier par symbole guerrier visible.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Jour</h3>
+                    <p>Votre Jour comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li>
+                            <strong>Assemblée.</strong> Vous pouvez effectuer jusqu’à 2 des actions suivantes autant de fois que souhaité et dans n’importe quel ordre.
+                            <ol type="I">
+                                <li><strong>Construction.</strong> Révélez 1 carte pour placer une Citadelle ou un Marché dans une clairière que vous contrôlez de la même couleur que la carte.</li>
+                                <li><strong>Recrutement.</strong> Placez 1 guerrier dans le Terrier.</li>
+                                <li><strong>Déplacement.</strong> Effectuez 1 déplacement.</li>
+                                <li><strong>Combat.</strong> Initiez un combat.</li>
+                                <li><strong>Creuser.</strong> Dépensez 1 carte pour placer 1 jeton de Tunnel dans une clairière de la même couleur que cette carte qui n’en comporte pas déjà. Déplacez ensuite jusqu’à 4 guerriers du Terrier vers cette clairière. <i>(Si les 3 Tunnels sont déjà sur le plateau, vous pouvez d’abord en retirer 1.)</i></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <strong>Parlement.</strong> Vous pouvez effectuer les actions de chaque Ministre Rallié 1 fois dans l’ordre de votre choix.
+                            <ol type="I">
+                                <li><strong>Contremaître.</strong> Révélez 1 carte au choix pour placer une Citadelle ou un Marché dans une clairière que vous contrôlez <i>(de la même couleur que la carte ou non).</i></li>
+                                <li><strong>Capitaine.</strong> Initiez un combat.</li>
+                                <li><strong>Maréchal.</strong> Effectuez 1 déplacement.</li>
+                                <li><strong>Brigadier.</strong> Effectuez jusqu’à 2 déplacements ou initiez jusqu’à 2 combats.</li>
+                                <li><strong>Banquier.</strong> Dépensez autant de cartes que souhaité <i>(même une)</i> de la même couleur pour marquer ce nombre de points de victoire.</li>
+                                <li><strong>Maire.</strong> Effectuez l’action de l’Écuyer ou du Noble rallié de votre choix.</li>
+                                <li><strong>Duchesse de Boue.</strong> Marquez 2 points de victoire si les 3 Tunnels sont sur le plateau.</li>
+                                <li><strong>Baron de Poussière.</strong> Marquez 1 point de victoire par Marché sur le plateau.</li>
+                                <li><strong>Comte des Pierres.</strong> Marquez 1 point de victoire par Citadelle sur le plateau.</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <strong>Ralliement.</strong> Vous pouvez rallier un ministre, comme ceci.
+                            <ol type="I">
+                                <li><strong>Choisir un Ministre.</strong> Choisissez 1 carte de Ministre dans votre pile de Ministres Non-Ralliés. Vous devez posséder sur votre plateau de faction une couronne correspondant au rang <i>(Écuyer, Noble, Seigneur)</i> de ce ministre.</li>
+                                <li><strong>Révéler des cartes.</strong> Révélez le nombre de cartes indiqué sur le Ministre choisi. Pour chaque carte que vous souhaitez révéler, vous devez avoir au moins 1 pièce dans une clairière de la même couleur que la carte. Vous ne pouvez révéler qu’une carte par clairière (même si vous y possédez plusieurs pièces).</li>
+                                <li><strong>Rallier des Ministres et marquer des Points.</strong> Prenez la carte du Ministre choisi et placez-la au-dessus de votre plateau de faction. Prenez une couronne du rang de ce Ministre sur votre plateau de faction et placez-la sur la carte du Ministre. Marquez les points de victoire indiqués sur la case dévoilée sur la piste des comptoirs de votre plateau de faction.</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Crépuscule</h3>
+                    <p>Votre Crépuscule comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Défausser et récupérer les Cartes révélées.</strong> Défaussez les cartes Oiseau révélées ce tour, puis reprenez les autres cartes révélées ce tour dans votre main.</li>
+                        <li><strong>Fabrication.</strong> Vous pouvez fabriquer en activant des Citadelles et des Marchés. <i>(Ces pièces sont identiques concernant la fabrication.)</i></li>
+                        <li><strong>Piocher et défausser.</strong> Piochez 1 carte, plus 1 carte par symbole de carte visible. Puis, si vous avez plus de 5 cartes en main, défaussez-en (au choix) jusqu’à en avoir 5.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="13">
+                <h2>Conspiration des Corvidés <i class="icon-faction text-corvid">C</i></h2>
+                <div class="subsection">
+                    <h3>Aperçu</h3>
+                    <p>La Conspiration des Corvidés souhaite soumettre les Sous-Bois par la force en fomentant des <mark>Complots</mark> criminels, puis en marquant des points de victoire chaque fois qu’elle en retourne un. Plus elle fait éclater de Complots sur le plateau, plus elle marque de points. Il est crucial de détourner l’attention des autres joueurs, si ses plans sont trop faciles à anticiper, ils risquent d’être déjoués. Pour éviter que cela n’arrive, les Corvidés doivent recruter prudemment et sauter sur chaque occasion de duper ou extorquer leurs adversaires.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Règles et capacités de la faction</h3>
+                    <ol>
+                        <li><strong>Fabrication.</strong> Les Corvidés fabriquent pendant l’Aurore en activant des jetons de Complot (face visible ou face cachée).</li>
+                        <li>
+                            <strong>Jetons de Complot.</strong> Les Corvidés ont 8 jetons de Complot, 2 de chaque type.
+                            <ol type="I">
+                                <li><strong>Orientation des Jetons.</strong> Tant qu'ils sont dans la réserve des Corvidés, les jetons de Complot sont face cachée <i>(plume)</i>. Lorsqu’il est sur le plateau, un jeton de Complot peut être face visible <i>(symbole unique)</i> ou face cachée. Les Corvidés peuvent regarder le symbole d’un jeton de Complot face cachée à tout moment.</li>
+                                <li><strong>Limites de placements.</strong> Une clairière ne peut contenir qu’un seul jeton de Complot.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Agile.</strong> Les Corvidés peuvent toujours se déplacer, peu importe qui contrôle les clairières.</li>
+                        <li><strong>Complot Déjoué.</strong> À tout moment pendant son tour, mais avant d’avoir pioché des cartes lors du Crépuscule, un joueur adverse possédant des pièces de faction dans une clairière où se trouve un jeton de Complot face cachée peut montrer aux Corvidés une carte de la couleur de la clairière pour tenter de deviner le type du jeton de Complot. S'il se trompe, les Corvidés disent «&nbsp;non&nbsp;», et le joueur adverse doit leur donner cette carte. S’il a raison, le joueur adverse retire ce jeton de Complot <i>(et marque ainsi 1 point de victoire)</i> et ignore son effet.</li>
+                        <li><strong> Agent secret.</strong> En défendant en combat, les Corvidés infligent 1 perte additionnelle s’ils ont un jeton de Complot face cachée <i>(même sans défense)</i> dans la clairière du combat.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Mise en place de la faction</h3>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Préparer les guerriers et les Complots.</strong> Formez une réserve de 15 guerriers et 8 jetons de Complot face cachée.</li>
+                        <li><strong>Étape 2&nbsp;: Déploiement.</strong> Placez 1 guerrier dans une clairière de chaque couleur <i>(3 en tout)</i>.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Aurore</h3>
+                    <p>Votre Aurore comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Fabrication.</strong> Vous pouvez activer des jetons de Complot <i>(face visible ou cachée)</i> pour fabriquer des cartes de votre main.</li>
+                        <li><strong>Retourner des Complots.</strong> Autant de fois que souhaité, et dans les clairières contenant des guerriers Corvidés, retournez un jeton de Complot pour en révéler le symbole. Marquez ensuite 1 point de victoire par jeton de Complot face visible sur le plateau <i>(dont celui que vous venez de retourner)</i>, puis résolvez son effet s'il s’agit d’une Bombe ou d’une Extorsion.</li>
+                        <li><strong>Recrutement.</strong> Une fois par tour, vous pouvez dépenser une carte pour placer un guerrier dans chaque clairière de la même couleur. <i>(Si vous dépensez une carte Oiseau, choisissez une couleur et placez des guerriers dans les clairières correspondantes.)</i></li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Jour</h3>
+                    <p>Vous pouvez effectuer jusqu’à 3 actions, parmi celles indiquées ci-dessous, autant de fois que souhaité et dans n’importe quel ordre.</p>
+                    <ol>
+                        <li><strong>Déplacement.</strong> Effectuez 1 déplacement.</li>
+                        <li><strong>Complot.</strong> Dans une clairière sans jeton de Complot, retirez un guerrier Corvidé, plus un autre guerrier Corvidé par jeton de Complot placé ce tour, pour y placer un jeton de Complot face cachée.</li>
+                        <li><strong>Combat.</strong> Initiez un combat.</li>
+                        <li><strong>Brouiller les pistes.</strong> Échangez la position de 2 jetons de Complot sur le plateau. Les 2 jetons doivent être sur la même face <i>(visible ou cachée)</i>.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Crépuscule</h3>
+                    <p>Votre Crépuscule comporte 2 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Influence.</strong> Vous pouvez effectuer une des actions du Jour si vous choisissez de ne pas piocher de cartes lors du Crépuscule.</li>
+                        <li><strong>Piocher.</strong> Piochez 1 carte, plus 1 carte par jeton Extorsion face visible sur le plateau. Puis, si vous avez plus de 5 cartes en main, défaussez-en jusqu'à en avoir 5.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Détail des jetons de Complot</h3>
+                    <ol>
+                        <li><strong>Bombe.</strong> Lorsqu’un jeton Bombe est retourné, retirez toutes les pièces adverses dans cette clairière, puis retirez le jeton Bombe.</li>
+                        <li><strong>Piège.</strong> Tant qu’un jeton Piège est face visible, les pièces adverses ne peuvent pas être placées dans la clairière où il se trouve, ni déplacées depuis celle-ci.</li>
+                        <li><strong>Extorsion.</strong> Lorsqu’un jeton Extorsion est retourné, prenez une carte au hasard dans la main de chaque joueur possédant des pièces de faction dans la clairière où se trouve le jeton. Tant qu’un jeton Extorsion est face visible, vous piochez une carte supplémentaire au Crépuscule.</li>
+                        <li><strong>Raid.</strong> Lorsqu’un jeton Raid est retiré <i>(face visible ou face cachée)</i>, placez 1 guerrier dans chaque clairière adjacente à celle où le jeton a été retiré. <i>(Ignorez cet effet si le jeton est retiré par un Complot Déjoué.)</i></li>
+                    </ol>
+                </div>
+            </section>
+            <p class="text-center"><em>Les deux sections suivantes détaillent les règles des factions de l’extension </em>Maraude<em>.</em></p>
+            <section id="14">
+                <h2>Seigneur des Cents <i class="icon-faction text-warlord">H</i></h2>
+                <div class="subsection">
+                    <h3>Aperçu</h3>
+                    <p>Le Seigneur des Cents ne tolère ni les idiots ni les dissidents. Lors du Crépuscule, les Cents marquent des points proportionnellement à leur capacité à <mark>opprimer</mark> leurs ennemis. Plus ils contrôlent de clairières qui ne possèdent que des pièces des Cents, et aucune pièce adverse (pas de guerriers, pas de bâtiments, rien&nbsp;!), plus ils marquent de points. Pour gagner en puissance et attirer des guerriers, les Cents doivent gagner des objets et les ajouter à leur énorme <mark>Butin</mark>. Leur <mark>seigneur de guerre</mark> mène les Cents vers la victoire. Ce guerrier-démagogue à l’<mark>humeur</mark> capricieuse accorde une capacité à ses troupes à chaque tour. Mais plus les Cents gagnent d’objets et satisfont les rêves de richesse de leur seigneur de guerre, plus le choix d’humeur se restreint. Ceux qui se targuent de représenter la vraie voix des Sous-bois peuvent inciter des <mark>foules</mark> à détruire des bâtiments et jetons adverses et à piller des ruines en quête d’objets.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Règles et capacités de la faction</h3>
+                    <ol>
+                        <li><strong>Fabrication.</strong> Les Cents fabriquent durant le Jour en activant des Bastions.</li>
+                        <li><strong>Le seigneur de guerre.</strong> Les Cents possèdent une pièce particulière&nbsp;: le seigneur de guerre. Il s’agit d'un guerrier qui ne peut être retiré autrement que lors d’un combat, déplacé en dehors d’un tour des Cents ou placé autrement que conformément à la Mise en place (<a href="#14.3.1">14.3.1</a>) ou à l’action Nomination (<a href="#14.4.3">14.4.3</a>).</li>
+                        <li><strong>Dédain du commerce.</strong> Lorsque les Cents fabriquent un objet, ils peuvent prendre l’objet sans marquer les points de victoire indiqués sur la carte ou retirer l’objet définitivement du jeu pour gagner les points de victoire indiqués. <i>(Ils peuvent toujours marquer des points de fabrication supplémentaires grâce à des effets comme Maître graveur et la Forge légendaire.)</i></li>
+                        <li>
+                            <strong>Le Butin.</strong> Au lieu d’avoir une case Objets Fabriqués, les Cents ont une case Butin. Celle-ci est composée de deux pistes&nbsp;: Autorité et Bravoure. La piste d’Autorité peut contenir les <i class="icon-item">M</i>, <i class="icon-item">B</i>, et les <i class="icon-item">X</i>. La piste de Bravoure peut contenir les <i class="icon-item">H</i>, <i class="icon-item">T</i>, <i class="icon-item">S</i>, et les <i class="icon-item">C</i>.
+                            <ol type="I">
+                                <li><strong>Gagner des objets.</strong> Lorsque les Cents gagnent un objet, ils le placent dans la case vide d’Autorité ou de Bravoure la plus à gauche <i>(selon le type d’objet)</i>. Si aucune case de ce type n’est disponible, ils retirent définitivement du jeu l'objet gagné ou un autre objet de cette piste, puis marquent 1 point de victoire.</li>
+                                <li><strong>Autorité et Bravoure.</strong> Le nombre d’objets sur les pistes d’Autorité et de Bravoure détermine leur Autorité et leur Bravoure, qui elles-même impactent divers points de règles de la faction. Lorsqu’il n’y a aucun objet sur ces pistes, ils possèdent 1 Autorité ou Bravoure, lorsqu’il y a 1 ou 2 objets dessus, ils en possèdent 2, lorsqu’il y a 3 objets dessus, ils en possèdent 3 et lorsqu'il y a 4 objets dessus, ils en possèdent 4.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Pillards.</strong>Au début d'un combat où ils sont l’attaquant, les Cents peuvent déclarer qu’ils souhaitent piller le défenseur, à condition que celui-ci possède un objet dans sa case Objets Fabriqués. <i>(Ils ne peuvent pas piller le Vagabond.)</i> S’ils déclarent souhaiter piller le défenseur, les Cents n’infligent aucune perte avec leur dé. <i>(Le défenseur inflige des pertes avec son dé, les Cents peuvent infliger des pertes additionnelles, grâce à l’humeur Furieux, par exemple.)</i> Puis, à la fin du combat, si les Cents contrôlent la clairière du combat, ils prennent un objet dans la case Objets Fabriqués du défenseur.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Mise en Place de la Faction</h3>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Garnison.</strong> Placez votre seigneur de guerre, 4 guerriers et 1 Bastion dans une clairière en coin qui n’est la clairière de départ en coin d’aucun autre joueur et, si possible, qui est diagonalement opposée à une clairière de départ en coin.</li>
+                        <li><strong>Étape 2&nbsp;: Placer les objets.</strong> Placez les 4 objets marqués d’un "R" aléatoirement sous les ruines, à moins que cette étape n’ait déjà été effectuée.</li>
+                        <li><strong>Étape 3&nbsp;: Devenir Tenace.</strong> Placez la carte d’Humeur Tenace dans la case d’Humeur.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Aurore</h3>
+                    <p>Votre Aurore comporte 4 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Raser.</strong> Dans chaque clairière avec un jeton Foule, retirez tous les bâtiments et jetons adverses, puis prenez un objet sous la ruine dans la clairière <i>(s’il y en a une)</i>, et retirez la ruine si vous venez de prendre le dernier objet. Après avoir résolu toutes les Foules, vous devez lancer le dé de Foule une fois et placer un jeton Foule dans une clairière de cette couleur adjacente à une clairière avec un jeton Foule, mais qui n’en possède pas encore. <i>(S'il n'y aucune clairière répondant à ces critères, ne placez pas de Foule.)</i></li>
+                        <li><strong>Recrutement.</strong> Placez autant de guerriers que votre Bravoure dans la clairière avec le seigneur de guerre. Puis placez des guerriers dans chaque clairière avec au moins 1 Bastion, à raison de 1 guerrier par Bastion dans cette clairière.</li>
+                        <li><strong>Nomination.</strong> Si le seigneur de guerre ne se trouve pas sur le plateau, vous devez remplacer un guerrier des Cents par le seigneur de guerre. Si cela n’est pas possible, placez le seigneur de guerre dans n’importe quelle clairière.</li>
+                        <li><strong>Choisir l’humeur.</strong> Remplacez la carte Humeur sur votre plateau par une autre carte Humeur dont l’objet ne se trouve pas dans votre Butin. Si vous êtes Généreux et ne pouvez pas choisir d’autre carte d’Humeur, vous restez Généreux.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Jour</h3>
+                    <p>Votre Jour comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Fabrication.</strong> Vous pouvez activer vos Bastions pour fabriquer des cartes.</li>
+                        <li>
+                            <strong>Diriger les Cents.</strong> Vous pouvez effectuer les actions suivantes dans n’importe quel ordre et autant de fois que souhaité, dans la limite de votre Autorité.
+                            <ol type="I">
+                                <li><strong>Déplacement.</strong> Effectuez 1 déplacement.</li>
+                                <li><strong>Combat.</strong> Initiez un combat.</li>
+                                <li><strong>Construction.</strong> Dépensez 1 carte pour placer un Bastion dans une clairière que vous contrôlez de la même couleur que la carte.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Charger avec le seigneur de guerre.</strong> Vous pouvez effectuer cette action autant de fois que votre Bravoure. Vous pouvez déplacer le seigneur de guerre avec autant de guerriers des Cents que souhaité, puis vous pouvez initier un combat dans la clairière du seigneur de guerre.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Crépuscule</h3>
+                    <p>Votre Crépuscule comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Incitation.</strong> Autant de fois que souhaité, vous pouvez dépenser 1 carte pour placer 1 jeton Foule dans une clairière de la même couleur que la carte qui ne possède pas déjà de jeton Foule, mais qui possède au moins 1 guerrier des Cents <i>(y compris le seigneur de guerre)</i>.</li>
+                        <li><strong>Opprimer.</strong> Marquez des points de victoire proportionnellement au nombre de clairières que vous contrôlez et dans lesquelles il y a des pièces des Cents et aucune pièce adverse. Marquez 1 point s’il y en a 1 ou 2 ; 2 points s’il y en a 3 ou 4 ; 3 points s’il y en a 5 ; et 4 points s’il y en a 6 ou plus.</li>
+                        <li><strong>Piocher et défausser.</strong> Piochez 1 carte. Puis, si vous avez plus de 5 cartes en main, défaussez-en (au choix) jusqu’à en avoir 5.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Humeurs</h3>
+                    <p>Votre Crépuscule comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Amer (<i class="icon-item">H</i>).</strong> Lors des combats dans la clairière de votre seigneur de guerre, avant de lancer les dés, vous pouvez retirer autant de jetons Foule de la clairière de votre seigneur de guerre ou des clairières adjacentes que souhaité. Placez autant de guerriers dans la clairière du seigneur de guerre que le nombre de jetons Foule que vous avez retirés.</li>
+                        <li><strong>Grandiose (<i class="icon-item">T</i>).</strong> Lors de ce tour, inversez l’ordre des étapes Charger avec le seigneur de guerre (<a href="#14.5.3">14.5.3</a>) et Diriger les Cents (<a href="#14.5.2">14.5.2</a>). <i>(Chargez d’abord avec le seigneur de guerre, puis Dirigez les Cents.)</i></li>
+                        <li><strong>En liesse (<i class="icon-item">M</i>).</strong> Chaque fois que vous effectuez l’action Incitation dans la clairière de votre seigneur de guerre et après avoir placé le jeton Foule, vous pouvez <i>(4 fois maximum)</i> lancer le dé de Foule et placer un jeton Foule dans une clairière de la même couleur qui ne possède pas encore de jeton Foule, mais qui est adjacente à une clairière avec un jeton Foule.</li>
+                        <li><strong>Généreux (pas d’objet).</strong> À la fin de votre Aurore, vous pouvez retirer définitivement autant d’objets que souhaité de votre Butin. Placez 2 guerriers dans la clairière de votre seigneur de guerre par objet retiré. Après avoir retiré les objets souhaités, réorganisez votre Butin afin que les pistes soient remplies de gauche à droite.</li>
+                        <li><strong>Impitoyable (<i class="icon-item">B</i>).</strong> Chaque fois que vous effectuez l’action Charger avec le seigneur de guerre et que vous combattez en plus de vous déplacer, vous pouvez soit déplacer à nouveau votre seigneur de guerre avec des guerriers des Cents, soit combattre à nouveau dans la clairière du seigneur de guerre.</li>
+                        <li><strong>Bagarreur (<i class="icon-item">X</i>).</strong> Piochez 1 carte supplémentaire lors du Crépuscule (<a href="#14.6.3">14.6.3</a>). S’il y a au moins 3 pièces adverses dans la clairière de votre seigneur de guerre (y compris s’il s’agit de pièces d’adversaires différents), piochez 2 cartes supplémentaires à la place.</li>
+                        <li><strong>Tenace (<i class="icon-item">C</i>).</strong> Ignorez la première perte subie lors des combats dans la clairière de votre seigneur de guerre. <i>(Vous ne pouvez pas combiner cette capacité avec d’autres capacités permettant d’ignorer la première perte subie.)</i></li>
+                        <li><strong>Furieux (<i class="icon-item">S</i>).</strong> Vous infligez 1 perte additionnelle lors des combats dans la clairière de votre seigneur de guerre si vous êtes l’attaquant.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="5">
+                <h2>Gardiens de Fer <i class="icon-faction text-keepers">K</i></h2>
+                <div class="subsection">
+                    <h3>Aperçu</h3>
+                    <p>Les Gardiens de Fer sont un ordre dévoué de chevaliers jadis exilés des Sous-Bois, désormais de retour pour retrouver les <mark>reliques</mark> perdues lors d’anciens conflits. Nul ne sait, cependant, si ces reliques appartiennent aux Gardiens ou aux Sous-Bois&hellip; Afin d’accomplir leur mission, ils doivent extraire les reliques des bois, les transporter vers un <mark>relais</mark> du même type, puis les restaurer. Lorsqu’ils restaurent une relique, ils marquent entre 1 et 3 points selon la valeur de la relique. Ils marquent également 2 points supplémentaires chaque fois qu’ils complètent un ensemble de 3 types de reliques <i>(statuette, tablette et bijou)</i>. Au fil du temps, un <mark>Cortège</mark> de créatures des Sous-Bois se joindra aux Gardiens, leur permettant d’effectuer davantage d’actions. Cependant, chaque fois qu’ils extraient ou restaurent une relique, ils risquent de perdre la carte Cortège qu’ils ont utilisée pour effectuer l’action. Il est donc primordial de planifier les actions en amont et de limiter les risques pour mener à bien la mission.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Règles et capacités de la faction</h3>
+                    <ol>
+                        <li><strong>Reliques.</strong> Vous cherchez 12 jetons Relique de 3 types différents&nbsp;: statuette, tablette et bijou. Il y a 4 jetons de chaque type. Le recto du jeton n’indique que le type de relique, le verso indique sa valeur <i>(1, 2, 3, 3)</i>.</li>
+                        <li><strong>Relais.</strong> Vous possédez 3 Relais. Chaque Relais indique un type de relique au recto et un autre au verso.</li>
+                        <li><strong>Fabrication.</strong> Les Gardiens fabriquent pendant le Jour en activant des Relais <i>(de n'importe quel type)</i>.</li>
+                        <li><strong>Chevaliers dévoués.</strong> En combat, si la clairière du combat possède au moins une relique et au moins un guerrier Gardien, les Gardiens ignorent la première perte subie. <i>(En cas d'embuscade, ignorez une perte de l’embuscade, mais pas les autres pertes.)</i> Lors des déplacements, les Gardiens peuvent déplacer 1 relique avec chaque guerrier Gardien qu’ils déplacent.</li>
+                        <li><strong>Trophées convoités.</strong> Chaque fois qu'un adversaire retire une relique, il la place face visible dans un bois et marque 1 point de victoire supplémentaire <i>(donc 2 points de victoire en tout)</i>.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Mise en place de la faction</h3>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Placer les reliques de départ.</strong> Prenez les 12 jetons Relique et mélangez-les face cachée <i>(leur valeur ne doit pas être visible)</i>. Placez-en 1 au hasard dans chaque bois. <i>(Nous vous conseillons de faire glisser les Reliques face cachée sur le plateau, et de les placer tous ensemble de cette façon le plus rapidement possible. Vous pouvez aussi essayer cette méthode&nbsp;: le joueur des Gardiens empile les reliques au hasard, un autre joueur coupe la pile, la prend et fait tomber les reliques une par une de bas en haut dans les bois.)</i></li>
+                        <li><strong>Étape 2&nbsp;: Placer les guerriers.</strong> Placez 4 guerriers dans la clairière dans un des coins qui n’est la clairière de départ en coin d’aucun autre joueur et, si possible, qui est diagonalement opposée à une clairière de départ en coin. Puis placez 4 guerriers dans une clairière sur un bord du plateau et adjacente à la clairière choisie.</li>
+                        <li><strong>Étape 3&nbsp;: Placer le reste des reliques.</strong> Placez aussi équitablement que possible le reste des reliques au hasard dans les bois qui ne sont pas adjacents aux clairières contenant vos guerriers.</li>
+                        <li><strong>Étape 4&nbsp;: Placer les Membres Loyaux du Cortège.</strong> Glissez une carte Membre Loyal du Cortège dans chaque case Cortège de votre plateau de faction.</li>
+                        <li><strong>Étape 5&nbsp;: Prendre les Relais.</strong> Placez vos 3 bâtiments Relais sur les cases Relais correspondantes de votre plateau de faction.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Aurore</h3>
+                    <p>Votre Aurore comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Établir un camp.</strong> Une fois par clairière, vous pouvez remplacer 1 guerrier Gardien par 1 Relais. Si vous n’avez pas de guerriers, ni de Relais sur le plateau, placez 1 Relais et 1 guerrier dans une clairière au choix sur un bord du plateau. Quoi qu’il en soit, vous pouvez placer le Relais sur la face de votre choix.</li>
+                        <li><strong>Lever le camp.</strong> Une fois par clairière, vous pouvez remplacer 1 Relais par 1 guerrier Gardien.</li>
+                        <li><strong>Recrutement.</strong> Autant de fois que souhaité, vous pouvez dépenser 1 carte pour placer 2 guerriers sur un Relais dans une clairière de la même couleur.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Jour</h3>
+                    <p>Votre Jour comporte 2 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Fabrication.</strong> Vous pouvez activer des Relais <i>(de n’importe quel type)</i> pour fabriquer des cartes.</li>
+                        <li>
+                            <strong>Agir avec le Cortège.</strong> En commençant par la colonne de gauche de votre Cortège et en continuant de gauche à droite, vous pouvez effectuer l’action de la colonne, comme indiqué ci-après, pour chaque carte de la colonne et dans l’ordre de votre choix.
+                            <ol type="I">
+                                <li><strong>Déplacement.</strong> Déplacez-vous à partir d’une clairière de la couleur de la carte.</li>
+                                <li>
+                                    <strong>Combattre, puis Extraire une relique.</strong> Choisissez une clairière de la couleur de la carte. Vous devez y initier un combat si elle contient des pièces adverses. Puis, si vous contrôlez la clairière et qu’elle contient au moins un guerrier Gardien, vous pouvez Extraire une relique, comme indiqué ci-après <i>(même s'il n’y a pas d’adversaire à combattre)</i>.
+                                    <ol type="a">
+                                        <li><strong>Étape 1&nbsp;: Déplacer et retourner une relique.</strong> Déplacez une relique d’un bois adjacent vers cette clairière. Retournez cette relique afin que sa valeur soit visible <i>(si ce n’est pas le cas)</i>.</li>
+                                        <li><strong>Étape 2&nbsp;: Vérifiez votre Cortège.</strong> Comptez le nombre de clairières que vous contrôlez adjacentes au bois d’où vous avez extrait la Relique. Si vous en contrôlez moins que la valeur de la Relique, vous devez défausser la carte Cortège qui vous a permis d’effectuer cette action.</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <strong>Déplacement ou Restauration.</strong> Choisissez une clairière de la couleur de la carte. Effectuez 1 déplacement depuis cette clairière, ou Restaurez une relique en effectuant les étapes suivantes.
+                                    <ol type="a">
+                                        <li><strong>Étape 1&nbsp;: Prendre une relique.</strong> Prenez-y une relique du même type que le Relais qui s’y trouve. Placez-la dans la case vide la plus à gauche de ce type de relique.</li>
+                                        <li><strong>Étape 2&nbsp;: Marquer des points.</strong> Marquez autant de points de victoire que la valeur de la relique, plus 2 points supplémentaires si vous venez de compléter une colonne de reliques.</li>
+                                        <li><strong>Étape 3&nbsp;: Vérifiez votre Cortège.</strong> Comptez le nombre de clairières que vous contrôlez de la même couleur que celle où vous avez restauré la relique. Si vous en contrôlez moins que la valeur de la relique, cette action de Restauration prend fin et vous devez défausser la carte de Cortège qui vous a permis de l’effectuer. Sinon, vous pouvez revenir à l’étape 1 «&nbsp;Prendre une relique&nbsp;» ou mettre fin à cette action de Restauration.</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Crépuscule</h3>
+                    <p>Votre Crépuscule comporte 3 étapes à effectuer dans l’ordre suivant.</p>
+                    <ol>
+                        <li><strong>Vivre de la terre.</strong> Vous devez retirer 1 guerrier Gardien de chaque clairière qui en contient au moins 4.</li>
+                        <li><strong>Rassembler le Cortège.</strong> Vous pouvez ajouter autant de cartes de votre main dans les cases du Cortège que souhaité, ou vous pouvez déplacer une carte de votre Cortège vers une autre case du Cortège. Il ne peut pas y avoir plus de 10 cartes dans votre Cortège.</li>
+                        <li><strong>Piocher et défausser.</strong> Piochez 1 carte, plus 1 pour chaque bonus de pioche dévoilé <i>(égal au nombre de Relais sur le plateau)</i>. Puis, si vous avez plus de 5 cartes en main, défaussez-en (au choix) jusqu’à en avoir 5.</li>
+                    </ol>
+                </div>
+            </section>
+        </main>
+        <div id="appendices">
+            <h1>Appendices</h1>
+            <section id="A">
+                <h2>Mise en place avancée</h2>
+                <p>Il y a des centaines de façons de jouer à <i>Root</i>. Les icônes visibles à côté de chaque étape de mise en place indiquent les extensions de Root (<a href="#B">Appendice B</a>) qui proposent des options pour personnaliser cette étape.</p>
+                <div class="subsection">
+                    <h3>Étape 1&nbsp;: Choisir et installer un plateau <i class="icon-shield">L</i></h3>
+                    <p>Choisissez tous ensemble le plateau de jeu que vous souhaitez utiliser. Si vous choisissez un autre plateau que le plateau Automne (<a href="#C">Appendice C</a>), suivez la section Modifications de Mise en Place du plateau correspondant. Prenez ensuite les 12 marqueurs de couleur, mélangez-les face cachée, puis placez-les un par un sur chaque clairière, en recouvrant les symboles de couleur imprimés s'il y en a. Installez les ruines (<a href="#5.1.4">5.1.4</a>), la réserve d’objets (<a href="#5.1.5">5.1.5</a>) et les dés (<a href="#5.1.6">5.1.6</a>) normalement.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Étape 2&nbsp;: Choisir les cartes <i class="icon-shield">P</i></h3>
+                    <p>Vous pouvez choisir ensemble de remplacer le paquet de cartes de base par le paquet de cartes Éxilés et Partisans.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Étape 3&nbsp;: Choisir des robots <i class="icon-shield">C</i></h3>
+                    <p>Vous pouvez choisir ensemble de jouer avec des robots, comme indiqué dans la Loi de Rootbotiques.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Étape 4&nbsp;: Placer les joueurs</h3>
+                    <p>Déterminez au hasard la place des joueurs autour de la table ainsi que le premier joueur.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Étape 5&nbsp;: Installer des Monuments <i class="icon-shield">Q</i></h3>
+                    <p>Vous pouvez choisir ensemble d’utiliser des Monuments (<a href="#F">Appendice F</a>). Vous pouvez alors ignorer les étapes de mise en place de la Tour et du Radeau décrites dans la section Variantes de plateaux (<a href="#C">Appendice C</a>).</p>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Choisir.</strong> Choisissez ensemble si vous souhaitez jouer avec 1 ou 2 Monuments, puis retirez les cartes Monument avec lesquelles vous ne souhaitez pas jouer.</li>
+                        <li><strong>Étape 2&nbsp;: Distribuer les cartes et prendre les Monuments.</strong> Mélangez les cartes Monument choisies, distribuez-en autant que décidé précédemment, puis prenez la pièce du Monument illustré sur chaque carte distribuée.</li>
+                        <li><strong>Étape 3&nbsp;: Mise en place.</strong> Le dernier joueur dans l’ordre du tour installe un des Monuments piochés, comme indiqué sur sa carte. Si vous avez choisi de jouer avec 2 Monuments, l’avant-dernier joueur dans l’ordre du tour installe l’autre Monument pioché, comme indiqué sur sa carte.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Étape 6&nbsp;: Installer les Nomades <i class="icon-shield">Z</i> <i class="icon-shield">K</i></h3>
+                    <p>Vous pouvez choisir ensemble d’utiliser exactement 3 Nomades (<a href="#E">Appendice E</a>), en suivant ces étapes&nbsp;:</p>
+                    <ol>
+                        <li><strong>Étape 1&nbsp;: Prendre les pièces.</strong> Mélangez toutes les cartes Nomade. Distribuez 3 cartes Nomade et rangez le reste des cartes dans la boîte. Prenez les pièces des Nomades distribués et formez des réserves avec celles-ci.</li>
+                        <li><strong>Étape 2&nbsp;: Rétrograder.</strong> Si vous jouez à 3 joueurs, retournez au hasard 1 des Nomades sur sa face Rétrogradé <i>(indiqué par un «&nbsp;R&nbsp;»)</i>. Si vous jouez à 4 joueurs, retournez au hasard 2 des Nomades sur leur face Rétrogradé. Si vous jouez à 5 joueurs ou plus, retournez les 3 Nomades sur leur face Rétrogradé.</li>
+                        <li><strong>Étape 3&nbsp;: Installer les Nomades.</strong> En commençant par le joueur qui jouera en dernier, et en continuant dans le sens antihoraire, les joueurs installent un Nomade chacun, comme indiqué sur sa carte. <i>(Certains Nomades n’ont pas d’indications de mise en place.)</i></li>
+                        <li><strong>Étape 4&nbsp;: Placez les marqueurs de Nomade.</strong> Placez les trois marqueurs de Nomade («&nbsp;4,&nbsp;», «&nbsp;8&nbsp;» et «&nbsp;12&nbsp;») sur les cases correspondantes de la piste de score du plateau.</li>
+                        <li><strong>Étape 5&nbsp;: Ranger les factions correspondantes.</strong> Une faction dont le Nomade correspondant <i>(couleur et icône identiques)</i> est en jeu ne peut pas être utilisée. Rangez les plateaux de factions correspondants ainsi que les pièces et cartes de mise en place associées dans la boîte.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Étape 7&nbsp;: Piocher 5 cartes.</h3>
+                    <p>Si vous jouez à 2 joueurs, retirez du paquet les 4 cartes Domination, puis mélangez le paquet. Mélangez la pioche. Chaque joueur pioche 5 cartes. <i>(Pas 3, comme lors de la Mise en Place Standard&nbsp;! Vous choisirez les 3 cartes que vous souhaitez conserver lors de l’étape 10.)</i></p>
+                </div>
+                <div class="subsection">
+                    <h3>Étape 8&nbsp;: Installer les factions <i class="icon-shield">Z</i></h3>
+                    <p>Vous pouvez choisir ensemble d’installer les factions comme indiqué dans la Mise en place standard (<a href="#5.1">5.1</a>) ou d’utiliser les cartes de Mise en place incluses dans l’extension Maraude, comme indiqué ci-dessous.</p>
+                    <ol>
+                        <li>
+                            <strong>Étape 1&nbsp;: Distribuer les cartes de mise en place.</strong> Mélangez toutes les cartes de mise en place de faction Militante <i>(nom rouge avec une épée)</i> et piochez-en 1 à placer au centre de la table. Mélangez le reste des cartes de mise en place de faction Militante avec toutes les cartes de mise en place de faction Insurgée <i>(nom gris sans épée)</i>, et piochez 1 carte de mise en place par joueur. Placez ces cartes une à une à côté de celle déjà placée au centre de la table. <i>(Il doit y avoir une carte de mise en place de faction de plus que le nombre de joueurs.)</i>
+                            <ol type="I">
+                                <li><strong>Deux joueurs.</strong> Si vous n’êtes que 2 joueurs, retirez toutes les cartes de mise en place de faction Insurgée avant d’en piocher. <i>(Vous pouvez les garder si vous jouez avec les Nomades ou que vous pensez pouvoir relever le défi.)</i></li>
+                                <li><strong>Bloquer le dernier insurgé.</strong> Si la dernière carte de mise en place de faction piochée est une faction Insurgée, placez-la à l’horizontale pour indiquer qu’elle est bloquée. Elle ne peut être choisie que si au moins une faction Militante à été choisie.</li>
+                                <li><strong>Vagabond.</strong> Chaque fois que vous piochez et placez une carte de mise en place de faction Vagabond, piochez également une carte Personnage et placez-la face visible à côté de la première. Si un joueur choisit ce Vagabond comme faction, il doit utiliser la carte Personnage associée.</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <strong>Étape 2&nbsp;: Choisir les factions.</strong> En commençant par le dernier joueur dans l’ordre du tour et en continuant dans le sens antihoraire, chaque joueur choisit une carte de mise en place de faction parmi celles au centre de la table et installe immédiatement <i>(avant que le joueur suivant ne choisisse sa carte)</i> sa faction comme indiqué sur la carte de mise en place.
+                            <ol type="I">
+                                <li><strong>Patrie.</strong> Lors de la Mise en place, les joueurs peuvent avoir à choisir une ou plusieurs clairières comme Patrie. Ils ne peuvent pas choisir une Patrie déjà choisie comme telle par un adversaire, ni choisir une Patrie dans laquelle ils ne peuvent pas placer toutes les pièces indiquées dans les étapes de Mise en place.</li>
+                                <li><strong>Patries adjacentes.</strong> Certaines factions vous indiquent de choisir une Patrie qui n’est pas adjacente à une Patrie adverse, ou qui se trouve à plus de 2 clairières de distance des Patries adverses. Si vous ne pouvez pas choisir une Patrie à «&nbsp;plus de 2 clairières de distance des Patries adverses&nbsp;», choisissez une Patrie qui n’est pas adjacente à une Patrie adverse. Si vous ne pouvez pas choisir une Patrie «&nbsp;qui n’est pas adjacente à une Patrie adverse&nbsp;», vous pouvez choisir une Patrie adjacente à une Patrie adverse. <i>(De manière plus générale, essayez de vous installer «&nbsp;le plus loin possible des autres&nbsp;».)</i></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Étape 9&nbsp;: Marqueurs de score</h3>
+                    <p>Chaque joueur place son marqueur de score sur la case "0" de la piste de score.</p>
+                </div>
+                <div class="subsection">
+                    <h3>Étape 10&nbsp;: Mains de départ</h3>
+                    <p>Chaque joueur choisit 3 cartes à conserver parmi celles qu’il a en main, et replace les 2 autres, face cachée, sur la pioche. Lorsque tous les joueurs ont choisi leurs cartes, mélangez la pioche.</p>
+                </div>
+            </section>
+            <section id="B">
+                <h2>Matériel</h2>
+                <div class="subsection">
+                    <h3>Root</h3>
+                    <ol>
+                        <li><strong>Livrets de règles.</strong> Fiche de guide, livret d’apprentissage et la Loi de Root.</li>
+                        <li><strong>Pièces en carton.</strong> 28 bâtiments <i>(7 Perchoirs, 6 Scieries, 6 Recruteurs, 6 Ateliers, 3 Bases)</i>, 19 jetons <i>(10 Sympathie, 8 Bois, 1 Donjon)</i>, 12 marqueurs de clairière <i>(4 Lapin, 4 Renard, 4 Souris)</i>, 4 Ruines, 4 marqueurs de score, 3 marqueurs de relation, 23 Objets <i>(4 Bottes, 4 Épées, 4 Sacs, 3 Marteaux, 3 Cafés, 2 Pièces, 2 Arbalètes, 1 Torche)</i>.</li>
+                        <li><strong>Pièces en bois.</strong> 55 guerriers <i>(25 Marquise, 20 Canopée, 10 Alliance)</i>, 1 pion Vagabond.</li>
+                        <li><strong>Cartes.</strong> 54 Cartes pour le paquet commun, 16 aperçus de faction, 4 Dirigeants de la Canopée, 2 Vizirs fidèles, 3 Personnages Vagabond, 15 Quêtes, 4 Guides.</li>
+                        <li><strong>Autres.</strong> Plateau <i>(plateaux Automne et Hiver)</i>, 2 dés, 4 plateaux de faction <i>(Marquise, Canopée, Alliance, Vagabond)</i>.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Extension Compagnie de la Rivière (incluse dans la boîte de base) <i class="icon-shield">X</i></h3>
+                    <ol>
+                        <li><strong>Livrets de règles.</strong> Livret d’apprentissage.</li>
+                        <li><strong>Pièces en carton.</strong> 15 bâtiments <i>(15 Jardins)</i>, 9 jetons <i>(9 Comptoirs Commerciaux)</i>, 3 marqueurs de score, 1 marqueur de parias, 9 marqueurs de relation, 11 Objets <i>(3 Bottes, 3 Épées, 1 Sac, 1 Marteau, 1 Torche, 1 Pièce, 1 Arbalète)</i> et 17 pièces supplémentaires avec une lettre au dos pour de futurs scénarios.</li>
+                        <li><strong>Pièces en bois.</strong> 40 guerriers <i>(25 Lézards, 15 Compagnie de la Rivière)</i>, 1 pion Vagabond.</li>
+                        <li><strong>Cartes.</strong> 4 Espions, 2 aperçus de faction, 3 Personnages Vagabond.</li>
+                        <li><strong>Autres.</strong> 4 plateaux de faction <i>(Deuxième Vagabond, Marquise Mécanique, Compagnie de la Rivière, Culte des Lézards)</i>, 3 marqueurs de services, 1 porte-cartes.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Extension Monde Souterrain <i class="icon-shield">L</i></h3>
+                    <ol>
+                        <li><strong>Livrets de règles.</strong> Livret d’apprentissage et la Loi de Root.</li>
+                        <li><strong>Pièces en carton.</strong> 6 bâtiments <i>(3 Marchés, 3 Citadelles)</i>, 19 Jetons <i>(8 Complots, 8 Complots supplémentaires, 3 Tunnels)</i>, le Terrier, 4 marqueurs de relations, 2 marqueurs de score, 6 marqueurs de chemin fermé.</li>
+                        <li><strong>Pièces en bois.</strong> 35 guerriers <i>(20 Duché, 15 Corvidés)</i> 1 Radeau, 1 Tour, 9 Couronnes.</li>
+                        <li><strong>Cartes.</strong> 9 Ministres, 2 aperçus de faction.</li>
+                        <li><strong>Autres.</strong> Plateau <i>(plateaux Lac et Montagne)</i>, 2 dés, 2 plateaux de faction <i>(Duché, Corvidés)</i>.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Extension Maraude <i class="icon-shield">Z</i></h3>
+                    <ol>
+                        <li><strong>Livrets de règles.</strong> Livret d’apprentissage et la Loi de Root.</li>
+                        <li><strong>Pièces en carton.</strong> 9 Bâtiments <i>(3 Relais, 6 Bastions)</i>, 17 jetons <i>(12 Reliques, 5 Foules)</i>, 4 marqueurs de relations, 2 marqueurs de score, 12 marqueurs de supervision, 3 objets Gourdin, 3 marqueurs de Nomade, 11 marqueurs supplémentaires <i>(9 Scores, 2 Relations)</i>.</li>
+                        <li><strong>Pièces en bois.</strong> 56 guerriers <i>(20 Cents, 15 Gardiens, 12 Gardes Forestiers, 5 Dynastie, 4 Révolte)</i>, 1 Seigneur de guerre des Cents, 1 pion Éxilé.</li>
+                        <li><strong>Cartes.</strong> 8 Humeurs, 3 Membres Loyaux du Cortège, 11 Mise en place de faction, 4 Nomades, 2 Aperçu.</li>
+                        <li><strong>Autres.</strong> 2 plateaux de faction <i>(Cents, Gardiens)</i>, 3 dés <i>(Foule, Révolte, Supervision)</i>.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Extension Mécanique (incluse dans la boîte Monde Souterrain) <i class="icon-shield">C</i></h3>
+                    <ol>
+                        <li><strong>Livrets de règles.</strong> Les Lois de la Rootbotique.</li>
+                        <li><strong>Pièces en carton.</strong> 12 marqueurs de priorité.</li>
+                        <li><strong>Cartes.</strong> 12 Difficultés, 16 Traits de caractère, 3 Vagabots.</li>
+                        <li><strong>Autres.</strong> 4 plateaux de faction.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Extension Mécanique 2 (incluse dans la boîte Mauraude) <i class="icon-shield">C</i></h3>
+                    <ol>
+                        <li><strong>Livrets de règles.</strong> Les Lois de la Rootbotique.</li>
+                        <li><strong>Pièces en carton.</strong> 12 marqueurs de priorité.</li>
+                        <li><strong>Cartes.</strong> 12 Difficultés, 20 Traits de Caractère, 3 Vagabots, 1 Intéraction, 11 Services.</li>
+                        <li><strong>Autres.</strong> 4 plateaux de faction.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Paquet de cartes Exilés et Partisans (inclus dans la boîte Monde Souterrain) <i class="icon-shield">P</i></h3>
+                    <ol>
+                        <li><strong>Cartes.</strong> 54 cartes pour le paquet commun.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Pack Monuments (inclus dans la boîte Mauraude) <i class="icon-shield">Q</i></h3>
+                    <ol>
+                        <li><strong>Cartes.</strong> 1 mise en place/règles, 6 Monuments.</li>
+                        <li><strong>Pièces en bois.</strong> 4 Monuments.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Pack Vagabond (inclu dans la boîte Monde Souterrain) <i class="icon-shield">B</i></h3>
+                    <ol>
+                        <li><strong>Pièces en carton.</strong> 3 objets <i>(1 Pièce, 1 Marteau, 1 Botte)</i>.</li>
+                        <li><strong>Pièces en bois.</strong> 7 pions Vagabond.</li>
+                        <li><strong>Cartes.</strong> 3 Personnages Vagabond.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Packs Nomades (non incluse dans la boîte Mauraude) <i class="icon-shield">K</i></h3>
+                    <ol>
+                        <li><strong>Livrets de règles.</strong> Livret d’apprentissage Nomades.</li>
+                        <li><strong>Pièces en carton.</strong> 3 marqueurs de Nomade, 12 marqueurs de supervision. 3 jetons Caverne dans le pack Souterrain. 6 bâtiments Coffre dans le pack Maraude.</li>
+                        <li><strong>Pièces en bois.</strong> 1 pion Flottille, 4 guerriers Prophètes, 4 guerriers Bandits dans le pack de la Rivière. 8 guerriers Expédition, 6 guerriers Espions et 1 pion Protecteur dans le pack Souterrain. 6 guerriers Porteurs, 6 guerriers Gardiens et 5 guerriers Groupe dans le pack Maraude.</li>
+                        <li><strong>Cartes.</strong> 3 Nomades.</li>
+                        <li><strong>Autres.</strong> 1 dé de supervision.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="C">
+                <h2>Variantes de Plateaux</h2>
+                <div class="subsection">
+                    <h3>Plateau Hiver.</h3>
+                    <ol>
+                        <li><strong>Rivière déchainée.</strong> La rivière divise les bois (comme les chemins imprimés).</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Plateau Lac <i class="icon-shield">L</i></h3>
+                    <ol>
+                        <li><strong>Modifications de mise en place.</strong> Placez le Radeau dans la clairière côtière du coin inférieur droit.</li>
+                        <li><strong>Le Lac.</strong> Le <mark>lac</mark> est au centre du plateau. Considérez le lac comme des rivières reliant chaque clairière côtière aux autres clairières côtières. Le lac divise les bois.</li>
+                        <li><strong>Clairières Côtières.</strong> Les clairières qui touchent le lac <i>(pas entourées de bois)</i> sont des <mark>clairières côtières</mark>.</li>
+                        <li><strong>Bois Côtiers.</strong> Les bois qui touchent le lac sont des <mark>bois côtiers</mark>. Chaque bois côtier est adjacent aux deux bois côtiers de chaque coté <i>(séparés par une clairière côtière)</i>.</li>
+                        <li><strong>Le Radeau.</strong> Une fois par tour, les pièces qui se déplacent depuis la clairière côtière comportant le Radeau peuvent se déplacer avec le Radeau vers une autre clairière côtière <i>(qui est donc considérée comme adjacente)</i>. Puis, le joueur qui a fait le déplacement pioche 1 carte. <i>(Et ce selon les règles de déplacement habituelles.)</i> Le Radeau ne peut être ni combattu ni retiré.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Plateau Montagne <i class="icon-shield">L</i></h3>
+                    <ol>
+                        <li><strong>Modifications de mise en place.</strong> Placez les 6 marqueurs de chemin fermé sur les 6 chemins plus foncés creusés dans la terre. Placez la Tour dans la clairière centrale représentant deux tours.</li>
+                        <li><strong>Chemins fermés.</strong> Un chemin recouvert d'un marqueur de chemin fermé est un <mark>chemin fermé</mark>. Les clairières reliées par un chemin fermé ne sont pas adjacentes, et des pièces <i>(comme les Bandits des Grands Chemins)</i>, ne peuvent pas être placées sur des chemins fermés. Les chemins fermés encadrent et divisent les bois comme s’il s’agissait de chemins <i>(le Vagabond peut donc se faufiler d'un bois à l’autre à travers ce chemin)</i>.</li>
+                        <li><strong>Retirer des chemins fermés.</strong> Une fois par tour lors du Jour, un joueur peut dépenser une carte pour retirer un marqueur de chemin fermé de la partie définitivement et marquer 1 point de victoire. Pour le retirer, ce joueur doit posséder au moins 1 pièce de faction dans l’une ou l’autre des clairières reliées par le marqueur de chemin fermé.</li>
+                        <li><strong>Le Col et la Tour.</strong> Le <mark>Col</mark> est la clairière marquée par la Tour. À la fin du Crépuscule d'un joueur, si celui-ci contrôle le Col, il marque 1 point de victoire.</li>
+                        <li><strong>Bois.</strong> Toutes les zones du plateau Montagne fermées par des chemins et des clairières sont des bois (<a href="#2.4">2.4</a>), que des arbres y soient représentés ou non.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="D">
+                <h2>Vagabonds</h2>
+                <div class="subsection">
+                    <h3>Voleur</h3>
+                    <ol>
+                        <li><strong>Objets de départ.</strong> Commencez avec <i class="icon-item">M</i>, <i class="icon-item">F</i>, <i class="icon-item">T</i>, <i class="icon-item">S</i>.</li>
+                        <li><strong>Action spéciale&nbsp;: Larcin.</strong> Épuisez une <i class="icon-item">F</i> pour prendre une carte au hasard dans la main d’un joueur de votre clairière.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Bricoleur</h3>
+                    <ol>
+                        <li><strong>Objets de départ.</strong> Commencez avec <i class="icon-item">M</i>, <i class="icon-item">F</i>, <i class="icon-item">B</i>, <i class="icon-item">H</i>.</li>
+                        <li><strong>Action spéciale&nbsp;: Travailleur.</strong> Épuisez une <i class="icon-item">F</i> pour prendre une carte de la défausse de la même couleur que votre clairière. <i>(Vous pouvez toujours prendre une carte Oiseau.)</i></li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Rôdeur</h3>
+                    <ol>
+                        <li><strong>Objets de départ.</strong> Commencez avec <i class="icon-item">M</i>, <i class="icon-item">F</i>, <i class="icon-item">C</i>, <i class="icon-item">S</i>.</li>
+                        <li><strong>Action spéciale&nbsp;: Refuge.</strong> Épuisez 1 <i class="icon-item">F</i> pour réparer 3 objets. Mettez ensuite immédiatement fin au Jour et passez au Crépuscule.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Miséreux <i class="icon-shield">X</i></h3>
+                    <ol>
+                        <li><strong>Objets de départ.</strong> Commencez avec <i class="icon-item">X</i>, <i class="icon-item">F</i>, <i class="icon-item">M</i>.</li>
+                        <li><strong>Action spéciale&nbsp;: Provocation.</strong> Épuisez une <i class="icon-item">F</i> pour initier un combat dans votre clairière. Vous choisissez l’attaquant et le défenseur, ainsi que l’ordre dans lequel chacun retire des bâtiments et des jetons. Vous retirez également ces pièces. <i>(Marquez 1 point de victoire par bâtiment ou jeton de chaque joueur retiré, ainsi que par pièce hostile des joueurs retirée.)</i></li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Médiateur <i class="icon-shield">X</i></h3>
+                    <ol>
+                        <li><strong>Objets de départ.</strong> Commencez avec <i class="icon-item">M</i>, <i class="icon-item">F</i>, <i class="icon-item">S</i>, <i class="icon-item">S</i>.</li>
+                        <li><strong>Action spéciale&nbsp;: Protection.</strong> Avant de lancer les dés pour un combat, le défenseur peut enrôler le Médiateur dans la clairière du combat. Le Médiateur marque 1 point de victoire et ajoute toutes ses <i class="icon-item">S</i> intactes au maximum de pertes infligées par le défenseur. Le Médiateur ne peut pas s’enrôler lui-même ou être enrôlé contre lui-même.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Brigand <i class="icon-shield">X</i></h3>
+                    <ol>
+                        <li><strong>Objets de départ.</strong> Commencez avec <i class="icon-item">M</i>, <i class="icon-item">M</i>, <i class="icon-item">F</i>, <i class="icon-item">C</i>.</li>
+                        <li><strong>Action spéciale&nbsp;: Terre brûlée.</strong> Épuisez une <i class="icon-item">F</i> et placez-la dans votre clairière. Retirez toutes les pièces adverses de cette clairière. Les pièces ne peuvent plus être placées ou déplacées dans la clairière avec la <i class="icon-item">F</i>. <i>(Vous restez dans cette clairière. Une fois que vous en sortez, vous ne pouvez plus y entrer. La <i class="icon-item">F</i> ne peut pas être retirée avec une carte «&nbsp;Faveur des&hellip;&nbsp;», car il ne s’agit pas d’une pièce adverse.)</i></li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Aventurier <i class="icon-shield">B</i></h3>
+                    <ol>
+                        <li><strong>Objets de départ.</strong> Commencez avec <i class="icon-item">M</i>, <i class="icon-item">F</i>, <i class="icon-item">H</i>.</li>
+                        <li><strong>Action spéciale&nbsp;: Improvisation.</strong> Une fois par tour, lorsque vous effectuez l’action Quête, vous pouvez considérer un objet non épuisé comme s'il s’agissait de n'importe quel autre objet. Lorsque vous épuisez cet objet pour accomplir la quête, endommagez-le aussi.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Ronin <i class="icon-shield">B</i></h3>
+                    <ol>
+                        <li><strong>Objets de départ.</strong> Commencez avec <i class="icon-item">M</i>, <i class="icon-item">M</i> <i class="icon-item">F</i>, <i class="icon-item">S</i>.</li>
+                        <li><strong>Action spéciale&nbsp;: Frappe rapide.</strong> Vous pouvez épuiser une <i class="icon-item">S</i> pour infliger 1 perte additionnelle au combat <i>(après avoir lancé les dés)</i>.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Chasseur <i class="icon-shield">B</i></h3>
+                    <ol>
+                        <li><strong>Objets de départ.</strong> Commencez avec <i class="icon-item">X</i>, <i class="icon-item">F</i>, <i class="icon-item">S</i>, <i class="icon-item">C</i>.</li>
+                        <li><strong>Action spéciale&nbsp;: Vol plané.</strong> Épuisez une <i class="icon-item">F</i> pour déplacer uniquement votre pion Vagabond <i>(pas d’autres pièces)</i> dans n’importe quelle clairière <i>(même Hostile)</i> du plateau sans épuiser de <i class="icon-item">M</i>.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="E">
+                <h2>Nomades</h2>
+                <div class="subsection">
+                    <h3>Gagner et perdre des Nomades</h3>
+                    <ol>
+                        <li><strong>Gagner des Nomades de la réserve.</strong> Lorsque le marqueur de score d’un joueur entre dans une case avec un marqueur de Nomade, il le prend et le place sous son Crépuscule <i>(pour ne pas l’oublier)</i>. À la fin de son tour, il prend une carte Nomade de la réserve, lance le dé de supervision (<a href="#E.1.2">E.1.2</a>) et retourne son marqueur de Nomade.</li>
+                        <li><strong>Lancer le dé de supervision.</strong> Lorsqu’un joueur gagne une carte Nomade, il lance le dé de supervision et place autant de marqueurs de supervision sur la carte Nomade que le résultat du dé. Le joueur ne compte que les étoiles dorées s’il a le plus de points de victoire (ou qu’il est à égalité pour le plus de points de victoire). Sinon, il compte toutes les étoiles <i>(et ce même s’il a activé une carte Domination)</i>.</li>
+                        <li><strong>Gagner le Nomade d'un autre joueur.</strong> À la fin de son tour, le joueur doit retirer un marqueur de supervision de chaque carte Nomade qu’il possède. Puis, pour chaque carte nomade qu'il supervise et qui ne possède plus de marqueur de supervision, il doit choisir un autre joueur <i>(il peut s'agir de celui avec le plus de points de victoire)</i> et lui donner cette carte ainsi qu'un marqueur Nomade. Chaque joueur ayant reçu une carte Nomade place le marqueur Nomade sous son Crépuscule (pour rappel) et lance immédiatement un dé de supervision (<a href="#E.1.2">E.1.2</a>).</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Capacités et Actions</h3>
+                    <p>Les Nomades possèdent de nombreuses actions et capacités représentées par des icônes spécifiques. Les actions et capacités qui commencent par le terme «&nbsp;Superviseur&nbsp;» sont octroyées au joueur qui supervise le Nomade.</p>
+                    <ol>
+                        <li><strong>Action de ralliement (<img class="inline-icon inline-icon-lg" src="img/icon-action-when-hired.png" alt="" />).</strong> Le superviseur doit effectuer cette action lorsqu’il obtient le Nomade.</li>
+                        <li><strong>Capacité (<img class="inline-icon inline-icon-lg" src="img/icon-ability.png" alt="" />)</strong> Cette capacité est toujours active ou indique les moments où elle se déclenche.</li>
+                        <li><strong>Action de début d’Aurore (<img class="inline-icon inline-icon-lg" src="img/icon-action-start-of-birdsong.png" alt="" />)</strong> Au début de son Aurore, le joueur qui supervise le Nomade peut ou doit effectuer cette action, en se référant à sa description.</li>
+                        <li><strong>Action à effectuer une fois par Jour (<img class="inline-icon inline-icon-lg" src="img/icon-action-once-per-daylight.png" alt="" />)</strong> Le joueur qui supervise le Nomade peut effectuer cette action une fois par Jour.</li>
+                    </ol>
+                </div>
+                <div class="subsection">
+                    <h3>Règles</h3>
+                    <ol>
+                        <li><strong>Contrôle.</strong> Le superviseur d’un Nomade ne considère les pièces Nomades comme les siennes que pour déterminer le contrôle des clairières. <i>(Le superviseur peut contrôler une clairière sur laquelle il ne possède que des pièces Nomades.)</i> Les Nomades qui ne sont supervisés par aucun joueur peuvent contrôler une clairière comme s'ils étaient des joueurs (<a href="#2.5">2.5</a>).</li>
+                        <li><strong>Adversaire.</strong> Un Nomade est considéré comme adversaire par tous les joueurs autres que son superviseur ou les joueurs ayant formé une coalition avec son superviseur.</li>
+                        <li><strong>Pièces indépendantes.</strong> Les pièces Nomades ne sont pas des pièces de la faction du superviseur. <i>(Le Duché ne les considère donc pas comme des pièces du Duché qu'il pourrait utiliser pour rallier des ministres, les Gardiens ne peuvent pas les retirer pour Établir un camp, etc.)</i></li>
+                        <li><strong>Actions indépendantes.</strong> Les actions Déplacement ou Combat d'un Nomade ne peuvent être effectuées qu’avec des pièces Nomades, et ne peuvent pas inclure de pièces du superviseur. Les Nomades ne peuvent pas effectuer d’actions d’une autre manière <i>(ils ne peuvent par exemple pas bénéficier des actions de Déplacement du superviseur, de la carte Directives erronnées, ou du Statut d’allié du Vagabond)</i>.</li>
+                        <li><strong>Effets indépendants.</strong> Les Nomades ne peuvent pas utiliser les capacités de leur superviseur, de leurs effets persistants fabriqués, ni de leurs cartes Embuscade. <i>(Un Nomade ne peut donc pas utiliser Constructeur naval lorsqu’il se déplace, et les Bandits des Grands Chemins ne peuvent pas être placés sur une rivière. Le superviseur d’un Nomade ne peut pas jouer de carte Embuscade lorsqu’il combat avec le Nomade.)</i></li>
+                        <li><strong>Pas de points pour les pièces retirées.</strong> Le superviseur d’un Nomade ne marque pas de points de victoire si son Nomade retire une pièce adverse <i>(en combat généralement)</i>. <i>(Les joueurs peuvent toujours marquer des points en retirant des bâtiments et des jetons Nomades, même lorsqu’ils sont le défenseur lors d’un combat contre un Nomade. Les joueurs marquent toujours des points normalement si les Prophètes du Soleil forcent les pièces de faction de ce joueur à se battre.)</i></li>
+                        <li><strong>Règles étranges.</strong> Si vous déplacez un Nomade avec le Radeau, vous piochez 1 carte. Si vous déplacez des guerriers Nomades dans une clairière dans laquelle se trouve un jeton de Sympathie de l’Alliance, ou que vous retirez un jeton de Sympathie de l’Alliance grâce à un Nomade, cela déclenche leur Indignation. <i>(Ces effets se réfèrent à «&nbsp;un joueur qui déplace&nbsp;» ou «&nbsp;un joueur qui retire&nbsp;».)</i></li>
+                    </ol>
+                </div>
+            </section>
+            <section id="F">
+                <h2>Monuments</h2>
+                <div class="subsection">
+                    <h3>Règles Générales</h3>
+                    <ol>
+                        <li><strong>Sécurité.</strong> Les Monuments ne peuvent pas être combattus, déplacés ou retirés, sauf mention contraire explicite sur la carte du Monument.</li>
+                        <li><strong>Possession.</strong> Aucune faction ne possède les Monuments. Ce ne sont pas non plus des pièces adverses.</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="G">
+                <h2>Glossaire</h2>
+                <div class="subsection">
+                    <h3></h3>
+                    <ol>
+                        <li><strong>Adjacence.</strong> Une clairière est adjacente à toute autre clairière qui lui est reliée par un chemin. Un bois est adjacent à toute clairière qui le touche sans traverser un chemin imprimé, et adjacent à toute bois dont il est seulement séparé par un seul chemin, sauf sur le Lac (<a href="#C.2.4">C.2.4</a>). <i class="icon-faction text-duchy">D</i></li>
+                        <li><strong>Adversaire.</strong> Tout autre joueur avec lequel vous n’avez pas formé de coalition (<a href="#9.2.8">9.2.8</a>) ou tout Nomade qui se trouve dans la réserve ou qui est supervisé par un joueur adverse.</li>
+                        <li><strong>Aire de jeu.</strong> Espace entourant votre plateau de faction. Les cartes qui s’y trouvent ne peuvent être dépensées, défaussées ou utilisées que conformément aux règles y faisant référence.</li>
+                        <li><strong>Bâtiment.</strong> Pièce en carton carrée qui appartient à sa faction.</li>
+                        <li><strong>Bord du plateau.</strong> La chaîne de clairières et de chemins qui déterminent les limites du plateau, y compris les Chemins fermés du plateau Montagne.</li>
+                        <li><strong>Capacité.</strong> Effet persistant d’une faction comme indiqué au sommet de son plateau de faction et dans la section Règles et capacités de la faction, ou effet persistant d’un Nomade, comme indiqué sur sa carte Nomade (<a href="#E.2.2">E.2.2</a>).</li>
+                        <li><strong>Chemin.</strong> Ligne blanche reliant deux clairières.</li>
+                        <li><strong>Considérer.</strong> La chose indiquée prend les propriétés de la seconde chose indiquée. Lorsque vous considérez des pièces adverses comme les vôtres concernant le contrôle des clairières, ce ne sont pas des pièces adverses, mais elles sont toujours des pièces de factions appartenant à ce joueur adverse. <i>(Par exemple, le guerriers de la Compagnie de la Rivière que vous avez engagés comme mercenaires ne sont pas des pièces adverses, mais ce sont toujours de pièces de faction de la Compagnie.)</i></li>
+                        <li><strong>Contrôle.</strong> Voir <a href="#2.5">2.5</a>.</li>
+                        <li><strong>Défausser.</strong> Placer la carte indiquée dans la défausse commune (<a href="#2.1">2.1</a>). S’il s’agit d'une carte Domination, la placer à côté du plateau à la place (<a href="#3.3.3">3.3.3</a>). <i class="icon-faction text-cult">L</i></li>
+                        <li><strong>Dépenser.</strong> Voir <mark>Défausser</mark>. <i>(Ces termes sont interchangeables, mais dépenser est utilisé lorsqu’un choix peut être fait entre plusieurs pièces.)</i></li>
+                        <li><strong>Échanger.</strong> Intervertir l’emplacement des deux pièces indiquées. <i>(Cet effet ignore les restriction des effets <mark>déplacer</mark> et <mark>placer</mark>, telles que les Pièges des Corvidés et le Donjon de la Marquise.)</i></li>
+                        <li><strong>Effet.</strong> Tout ce qui modifie la partie ou les règles, y compris les effets persistants, les capacités de faction et les actions.</li>
+                        <li><strong>Emplacement.</strong> Case blanche dans une clairière (<a href="#2.2.3">2.2.3</a>).</li>
+                        <li><strong>Forcer.</strong> Voir <a href="#1.5.5">1.5.5</a>.</li>
+                        <li><strong>Bois.</strong> Zone du plateau entourée de chemins et de clairières.</li>
+                        <li><strong>Guerrier.</strong> Figurine de bois qui appartient à sa faction. <i>(Le pion Vagabond n’est pas un guerrier et ne peut pas être retiré.)</i></li>
+                        <li><strong>Jeton.</strong> Pièce en carton ronde qui appartient à sa faction.</li>
+                        <li><strong>Montrer.</strong> Laisser le joueur indiqué voir la pièce indiquée.</li>
+                        <li><strong>Ne Peut Pas.</strong> Voir <a href="#1.1.2">1.1.2</a>.</li>
+                        <li><strong>Objet.</strong> Pièce en carton carrée montrant un objet (<i class="icon-item">M</i>, <i class="icon-item">S</i>, <i class="icon-item">C</i>, etc.) qui n’appartient à aucune faction.</li>
+                        <li><strong>Pièce.</strong> Tout composant&nbsp;: bâtiment, jeton, guerrier, pion, objet, marqueur, et ainsi de suite.</li>
+                        <li><strong>Pièce adverse.</strong> Pièce de faction d’un adversaire ou pièce Nomade d’un Nomade adverse, sauf si vous considérez cette pièce comme une des vôtres concernant le contrôle de clairière <i>(Mercenaires de la Compagnie de la Rivière, Nomades supervisés, etc)</i>. <i>(Les Objets ne peuvent pas être des pièces adverse.)</i></li>
+                        <li><strong>Pièce de faction.</strong> Tous les guerriers, pions, bâtiments et jetons listés au dos d’un plateau de faction. <i>(Les Objets ne sont pas des pièces de faction).</i> Voir <a href="#1.5.2">1.5.2</a>.</li>
+                        <li><strong>Piocher.</strong> Prendre la première carte de la pioche commune (<a href="#2.1">2.1</a>).</li>
+                        <li><strong>Pion.</strong> Figurine de bois qui appartient à sa faction.</li>
+                        <li><strong>Placer.</strong> Prendre la pièce indiquée à l’endroit indiqué et la mettre à l’endroit indiqué. L’endroit où prendre la pièce n’est pas toujours indiqué, il faut alors la prendre dans sa réserve, ou prendre la pièce correspondante la plus à gauche de sa piste. <i>Mettre</i> signifie <i>Placer</i>.</li>
+                        <li><strong>Plateau.</strong> Voir <a href="#2.2">2.2</a>.</li>
+                        <li><strong>Remplacer.</strong> Signifie <mark>retirer</mark> puis <mark>placer</mark>. Retirer la pièce indiquée et placer l’autre pièce indiquée à l’endroit où se trouvait la première pièce avant d’être retirée. Vous devez impérativement effectuer les deux étapes de l’action <mark>remplacer</mark> pour pouvoir la faire.</li>
+                        <li><strong>Réserve.</strong> Ensemble de pièces qui ne se trouve pas sur un plateau de faction ni sur le plateau. La réserve d’objets est l’ensemble d’objets sur le plateau.</li>
+                        <li><strong>Retirer.</strong> Prendre la pièce indiquée à l’endroit indiqué et la remettre à l’endroit indiqué. L’endroit où remettre la pièce n’est pas toujours indiqué, il faut alors la remettre dans la réserve de son propriétaire, la replacer sur la case vide la plus à droite de sa piste (le cas échéant) ou alors la retirer définitivement du jeu. <i>(Les objets doivent toujours être retirés définitivement.)</i></li>
+                        <li><strong>Révéler.</strong> Placer la carte indiquée face visible dans votre aire de jeu. L’endroit d’où provient la carte n’est généralement pas indiqué, il s’agit alors d'une carte de votre main.</li>
+                        <li><strong>Rivière.</strong> Ligne bleue reliant deux clairières.</li>
+                        <li><strong>Ruine.</strong> Pièce recouvrant une case "R" dans une clairière (<a href="#2.2.4">2.2.4</a>).</li>
+                    </ol>
+                </div>
+            </section>
+        </div>
+        <div id="index">
+            <h1>Index</h1>
+            <ul class="ps-0">
+                <li>Bois, <a href="#2.4">2.4</a>
+                    <ul>
+                        <li>sur le plateau Lac, <a href="#C.2.4">C.2.4</a></li>
+                        <li>sur le plateau Montagne, <a href="#C.3.5">C.3.5</a></li>
+                    </ul>
+                </li>
+                <li>Cartes
+                    <ul>
+                        <li>couleur de, <a href="#2.1">2.1</a></li>
+                        <li>domination, <a href="#2.1.3">2.1.3</a></li>
+                        <li>donner à d’autres joueurs, <a href="#1.3.2">1.3.2</a></li>
+                        <li>embuscade, <a href="#2.1.2">2.1.2</a></li>
+                        <li>piocher et défausser, <a href="#2.1">2.1</a></li>
+                        <li>règle les Oiseaux sont des jokers, <a href="#2.1.1">2.1.1</a></li>
+                    </ul>
+                </li>
+                <li>Cartes Domination, <a href="#2.1.3">2.1.3</a>
+                    <ul>
+                        <li>activation, <a href="#3.3.1">3.3.1</a></li>
+                        <li>défausser et dépenser, <a href="#3.3.3">3.3.3</a></li>
+                        <li>gagner avec, <a href="#3.3.1.I">3.3.1.I-II</a></li>
+                        <li>limite de main et, <a href="#3.3.2">3.3.2</a></li>
+                        <li>prendre une carte Domination disponible, <a href="#3.3.4">3.3.4</a></li>
+                    </ul>
+                </li>
+                <li>Cartes Embuscade, <a href="#2.1.2">2.1.2</a>
+                    <ul>
+                        <li>en combat, <a href="#4.3.1">4.3.1</a></li>
+                    </ul>
+                </li>
+                <li>Chemins, <a href="#2.2">2.2</a>
+                    <ul>
+                        <li>sur le plateau Montagne, <a href="#C.3.2">C.3.2</a> – <a href="#C.3.3">C.3.3</a></li>
+                    </ul>
+                </li>
+                <li>Clairières
+                    <ul>
+                        <li>adjacence de, <a href="#2.2.1">2.2.1</a></li>
+                        <li>couleur de, <a href="#2.2.2">2.2.2</a></li>
+                        <li>emplacements sur, <a href="#2.2.3">2.2.3</a></li>
+                        <li>patrie, <a href="#A.8.2.I">A.8.2.I-II</a></li>
+                        <li>ruine dans, <a href="#2.2.4">2.2.4</a></li>
+                        <li>sur le plateau Lac, <a href="#C.2.3">C.2.3</a></li>
+                    </ul>
+                </li>
+                <li>Col, le, <a href="#C.3.4">C.3.4</a></li>
+                <li>Combat, <a href="#4.3">4.3</a>
+                    <ul>
+                        <li>fin prématurée, <a href="#4.3.1.II">4.3.1.II</a></li>
+                        <li>jouer une embuscade en, <a href="#4.3.1">4.3.1</a></li>
+                        <li>sans défense en, <a href="#4.3.3.II">4.3.3.II</a></li>
+                    </ul>
+                </li>
+                <li>Conflit de règles, <a href="#1.1">1.1</a></li>
+                <li>Contrôle, <a href="#2.5">2.5</a>
+                    <ul>
+                        <li>pas de contrôle si égalité, <a href="#2.5">2.5</a></li>
+                    </ul>
+                </li>
+                <li>Déplacement, <a href="#4.2">4.2</a>
+                    <ul>
+                        <li>contrôle nécessaire pour, <a href="#4.2.1">4.2.1</a></li>
+                        <li>même pièce plusieurs fois, <a href="#4.2.2">4.2.2</a></li>
+                        <li>utiliser le Radeau, <a href="#C.2.5">C.2.5</a></li>
+                    </ul>
+                </li>
+                <li>Effets persistants, <a href="#4.1.3">4.1.3</a>
+                    <ul>
+                        <li>pas de doubles d’, <a href="#4.1.4">4.1.4</a></li>
+                    </ul>
+                </li>
+                <li>Fabrication, <a href="#4.1">4.1</a>
+                    <ul>
+                        <li>coût de, <a href="#4.1.1">4.1.1</a></li>
+                        <li>marquer des points avec, <a href="#3.2.2">3.2.2</a></li>
+                        <li>point d'interrogation tricolore dans, <a href="#4.1.1">4.1.1</a></li>
+                    </ul>
+                </li>
+                <li>Faction
+                    <ul>
+                        <li>mise en place standard, <a href="#5.1.1">5.1.1</a>, <a href="#5.1.7">5.1.7</a></li>
+                        <li>pièces, <a href="#1.5.2">1.5.2</a></li>
+                        <li>sélection lors de mise en place avancée, <a href="#A.8">A.8</a></li>
+                    </ul>
+                </li>
+                <li>Gagner
+                    <ul>
+                        <li>en même temps, <a href="#3.1">3.1</a></li>
+                        <li>par domination, <a href="#3.3">3.3</a></li>
+                        <li>par points de victoire, <a href="#3.1">3.1</a></li>
+                    </ul>
+                </li>
+                <li>Glossaire, <a href="#G">Appendice G</a></li>
+                <li>Information, <a href="#1.2">1.2</a></li>
+                <li>Lac, <a href="#C.2.2">C.2.2</a></li>
+                <li>Marquer des points
+                    <ul>
+                        <li>en fabriquant, <a href="#3.2.2">3.2.2</a></li>
+                        <li>en retirant des bâtiments et des jetons adverses, <a href="#3.2.1">3.2.1</a></li>
+                    </ul>
+                </li>
+                <li>Mise en place
+                    <ul>
+                        <li>avancée, <a href="#A">Appendice A</a></li>
+                        <li>standard, <a href="#5.1">5.1</a></li>
+                    </ul>
+                </li>
+                <li>Monuments
+                    <ul>
+                        <li>mise en place des, <a href="#A.5">A.5</a></li>
+                        <li>règles des, <a href="#F">Appendice F</a></li>
+                    </ul>
+                </li>
+                <li>Négociation, <a href="#1.3">1.3</a></li>
+                <li>Nomades
+                    <ul>
+                        <li>mise en place des, <a href="#A.6">A.6</a></li>
+                        <li>règles des, <a href="#E">Appendice E</a></li>
+                    </ul>
+                </li>
+                <li>Paquets, <a href="#A.2">A.2</a></li>
+                <li>Patrie, <a href="#A.8.2.I">A.8.2.I-II</a></li>
+                <li>Pertes
+                    <ul>
+                        <li>additionnelles, <a href="#4.3.3.I">4.3.3.I</a></li>
+                        <li>infliger, <a href="#4.3.4">4.3.4</a></li>
+                        <li>lancer les dés, <a href="#4.3.2">4.3.2</a></li>
+                        <li>maximum de, <a href="#4.3.2.I">4.3.2.I</a></li>
+                        <li>règle sans défense pour, <a href="#4.3.3.II">4.3.3.II</a></li>
+                        <li>subir, <a href="#4.3.4">4.3.4</a></li>
+                    </ul>
+                </li>
+                <li>Pièces
+                    <ul>
+                        <li>limite de, <a href="#1.5.1">1.5.1</a></li>
+                        <li>liste de, <a href="#B">Appendice B</a></li>
+                        <li>manipulation, <a href="#1.5.4">1.5.4</a></li>
+                        <li>propriétaire de, <a href="#1.5.3">1.5.3</a></li>
+                    </ul>
+                </li>
+                <li>Pièce de la Tour, <a href="#C.3.4">C.3.4</a></li>
+                <li>Pièce du Radeau, <a href="#C.2.5">C.2.5</a></li>
+                <li>Plateaux
+                    <ul>
+                        <li>mise en place des, <a href="#A.1">A.1</a></li>
+                        <li>règles des, <a href="#C">Appendice C</a></li>
+                    </ul>
+                </li>
+                <li>Rivières, <a href="#2.3">2.3</a>
+                    <ul>
+                        <li>sur le plateau Hiver, <a href="#C.1">C.1</a></li>
+                        <li>sur le plateau Lac, <a href="#C.2">C.2</a></li>
+                    </ul>
+                </li>
+                <li>Robots, <a href="#A.3">A.3</a></li>
+                <li>Sans défense, <a href="#4.3.3.II">4.3.3.II</a></li>
+                <li>Temporalité
+                    <ul>
+                        <li>choses simultanées et, <a href="#1.1.3">1.1.3</a></li>
+                        <li>interruptions et, <a href="#1.4.2">1.4.2</a></li>
+                        <li>structure du jeu et, <a href="#1.4.1">1.4.1</a></li>
+                    </ul>
+                </li>
+                <li>Terminologie, <a href="#G">Appendice G</a></li>
+                <li>Valeur, <a href="#5.2">5.2</a></li>
+            </ul>
+        </div>
+        <p class="text-center fst-italic">Cole dédie ce jeu à ses jeunes frères et soeurs, grâce à qui il n’a jamais oublié comment jouer.</p>
+        <p class="text-center fst-italic">Kyle dédie ce jeu à ses enfants qui lui ont toujours demandé des dessins d’animaux mignons.</p>
+        <div>
+            <h3>Crédits</h3>
+            <div>
+                <h4>ROOT &amp; COMPAGNIE DE LA RIVIÈRE</h4>
+                <p>Cole Wehrle (conception, développement, codirection artistique), Kyle Ferrin (illustration, codirection artistique), Patrick Leder (concept, développement), Joshua Yearsley (mise en page, développement), Nick Brachmann (développement, conception graphique), Clayton Capra (développement), Jake Tonding (développement), Jaime Willems (conception graphique), Kate Unrau (relecture)</p>
+            </div>
+            <div>
+                <h4>MONDE SOUTERRAIN</h4>
+                <p>Patrick Leder (concept), Kyle Ferrin (illustration), Nick Brachmann (développement, direction artistique), Cole Wehrle (développement, conception graphique), Joshua Yearsley (mise en page, développement), Kate Unrau (relecture)</p>
+            </div>
+            <div>
+                <h4>MARAUDE</h4>
+                <p>Patrick Leder (codirection artistique), Cole Wehrle (codirection artistique), Kyle Ferrin (illustration), Nick Brachmann (développement, concept, conception graphique), Pati Hyun (direction artistique, pré-press), Joshua Yearsley (conception graphique, développement, mise en page), Rachel Lapidow (relecture), Kate Unrau (relecture)</p>
+            </div>
+            <div>
+                <h4>COLLABORATEURS À L’EDITION</h4>
+                <p>Patrick Leder, Kyle Ferrin, Caryl Tan, Cole Wehrle, Nick Brachmann, Clayton Capra, Pati Hyun, Brooke Nelson, Joshua Yearsley, Ted Caya, Claire Donaghue, Andrea Francisco, Anne Kinner</p>
+            </div>
+            <div>
+                <h4>TESTEURS</h4>
+                <p>Grayson Pageet son groupe incroyable (inc. Martin, Jared, Richard, Tony, Harvey), Chas Threlkeld, Drew Wehrle, Blake Wehrle, Corey Porter, Kyle Kirk, Matthew Root, Mark von Minden, Davey Janik-Jones, les joueurs de First Minnesota, Jim Bolland, Melissa Lewis-Gentry et Modern Myths, Jennifer Gutterman et Hampshire College, Matthew Snow, Justin Dowd et l’équipe du Brass Cat, the Owl & Raven, Josh Houser, Brian Peterson, Ethan Zimmerman, Brandi Leder, Heather Brian, Ted Scamp, Jenny and Matt Benusa, Andrew Olson, Joel McGuire, Nathaniel Hicklin, Jacob Resler, Rae Kawalek, Nick Sopkowiak, Aaron Greatorex-Voith, Nicole Szajner, et le Brooklyn Game Lab (Robert Hewitt, Jack DeWald, Joseph Esbenshade, Nahvid Etedali, David Kanof, Marceline Leiman, Jill Pullara), Dāvis Dālmanis, Luke Bridwell, Justin Keenan, Bryan Vogel, Nick “Nev” Burton, Doug Radcliffe, Jeremy Liles, Kovács Botond, Mark Overstreet, Hung Nguyen, Luke McNally, Joshua Clark Orkin, Guerric Samples, Hunter C Fyffe, Steve Owen, Jon Mott, Sam De Roest, Sarah Shirley, Michela Garber, Patrick Flores Velarde, Lili Chin, Christina Berkley, Sebastian Apel, Opie’s Funeral, et tant d’autres.</p>
+            </div>
+            <p>Matagot tient à remercier tout particulièrement Duc-Mân Nguyên, Didier Mellinger et Stefen Gueguen pour leur aide dans la relecture de l'extension Maraude et également l'ensemble des membres du groupe Facebook <i>ROOT - jeu de société / boardgame - communauté francophone</i>.</p>
+            <p class="text-center"><strong>Besoin d’une pièce de remplacement&nbsp;?</strong><br /><a href="https://support.matagot-friends.com/">support.matagot-friends.com</a><br /><strong>En savoir plus sur <i>Root</i>&nbsp;:</strong><br /><a href="https://ledergames.com/root">ledergames.com/root</a></p>
+        </div>
+        <div id="key-references" class="border-double p-3">
+            <h2 class="text-center">Guide de Référence</h2>
+            <div>
+                <h3>Fabrication (<a href="#4.1">4.1</a>)</h3>
+                <p>Jouez une carte et activez les pièces de fabrication des couleurs listées dans le coin inférieur gauche de la carte. <i>(Le Vagabond épuise ses <i class="icon-item">H</i>.)</i> La couleur d’une pièce est celle de sa clairière et chacune peut être activée une fois par tour.</p>
+                <p>Si vous fabriquez un <mark>effet immédiat</mark>, résolvez-le et défaussez la carte. L’effet vous permet généralement de prendre un objet de la réserve sur le plateau et de marquer des points de victoire. Si l’objet n’est plus disponible dans la réserve, vous ne pouvez pas fabriquer la carte.</p>
+                <p>Si vous fabriquez un <mark>effet persistant</mark>, placez la carte dans votre aire de jeu. Vous pouvez utiliser son effet. Vous ne pouvez pas fabriquer un effet persistant si vous en avez déjà un portant le même nom.</p>
+            </div>
+            <div>
+                <h3>Déplacement (<a href="#4.2">4.2</a>)</h3>
+                <p>Déplacez un ou plusieurs de vos guerriers ou votre pion d’une clairière vers une clairière adjacente.</p>
+                <p>Vous devez contrôler la clairière de départ, ou celle d’arrivée, ou les deux. Une même pièce peut être déplacée plusieurs fois par tour.</p>
+            </div>
+            <div>
+                <h3>Combat (<a href="#4.3">4.3</a>)</h3>
+                <p>Vous pouvez combattre dans une clairière où vous avez des guerriers ou un pion.</p>
+                <p><strong>Étape 1&nbsp;: Le Défenseur peut lancer une embuscade.</strong> L’attaquant peut l’annuler en jouant aussi une embuscade.</p>
+                <p><strong>Étape 2&nbsp;: Lancer les dés.</strong> L’attaquant inflige autant de pertes que le plus <strong>grand</strong> résultat, le défenseur autant que le plus <strong>petit</strong>.</p>
+                <p>Le maximum de pertes que vous pouvez infliger en lançant les dés est le nombre de guerriers que vous avez dans la clairière du combat.</p>
+                <p><strong>Étape 3&nbsp;: Utiliser des effets.</strong> Les joueurs peuvent utiliser maintenant des effets optionnels qui affectent le combat. La plupart de ces effets infligent des <mark>pertes additionnelles</mark>, qui ne sont pas limitées par les guerriers.</p>
+                <p><em>Sans défense.</em> Si le défenseur n’a pas de guerrier dans la clairière du combat, l’attaquant inflige une perte additionnelle.</p>
+                <p><strong>Étape 4&nbsp;: Infliger les pertes.</strong> Chaque perte infligée retire une pièce (guerriers d’abord, puis bâtiments et jetons, choisis par le joueur qui subit les pertes).</p>
+                <p class="text-center"><strong>Notez&nbsp;:</strong> <em>Marquez 1 point de victoire pour chaque bâtiment et jeton adverse que vous retirez.</em></p>
+            </div>
+            <div>
+                <h3>Mise en Place (<a href="#5.1">5.1</a>)</h3>
+                <p><strong>Étape 1&nbsp;: Assignez les factions</strong> et déterminez le 1er joueur et les positions autour de la table. Distribuez les plateaux et les pièces.</p>
+                <p><strong>Étape 2&nbsp;: Placez les marqueurs de score</strong> sur "0".</p>
+                <p><strong>Étape 3&nbsp;: Distribuez 3 cartes</strong> à chaque joueur.</p>
+                <p><strong>Étape 4&nbsp;: Placez les ruines</strong> sur les 4 emplacements "R".</p>
+                <p><strong>Étape 5&nbsp;: Formez la réserve d’objets</strong> au-dessus du plateau.</p>
+                <p><strong>Étape 6&nbsp;: Préparer les dés</strong> et les cartes d’aperçu, si besoin.</p>
+                <p><strong>Étape 7&nbsp;: Mettez en place les factions</strong> dans l'ordre (A, B, C&hellip;)</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script>
+        $("main, #appendices").each(function() {
+            const isAppendices = !!$(this).attr("id");
+            $(this).find("h2").each(function(indexH2) {
+                const idH2 = isAppendices
+                    ? ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"][indexH2]
+                    : indexH2 + 1;
+                $(this).parent("section").attr("id", idH2)
+                    .find("h3").each(function(indexH3) {
+                        const idH3 = indexH3 + 1;
+                        $(this).parent(".subsection").attr("id", idH2+"."+idH3)
+                            .find(" > ol > li").each(function(indexTopic) {
+                                const idTopic = indexTopic + 1;
+                                $(this).attr("id", idH2+"."+idH3+"."+idTopic)
+                                    .find("ol[type=I] > li").each(function(indexSubTopic) {
+                                        const idSubTopic = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"][indexSubTopic];
+                                        $(this).attr("id", idH2+"."+idH3+"."+idTopic+"."+idSubTopic)
+                                            .find("ol[type=a] > li").each(function(indexSubSubTopic) {
+                                                const idSubSubTopic = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"][indexSubSubTopic];
+                                                $(this).attr("id", idH2+"."+idH3+"."+idTopic+"."+idSubTopic+"."+idSubSubTopic)
+                                            })
+                                    });
+                            });
+                    });
+            })
+        })
+    
+    </script>
+</body>
+
+</html>
